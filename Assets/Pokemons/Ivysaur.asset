@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
+  m_Name: Ivysaur
+  m_EditorClassIdentifier: 
+  name: Ivysaur
+  frontImage: {fileID: -7984717909588236317, guid: 57efd7aac0445194d84a6545c8f5921a,
+    type: 3}
+  backImage: {fileID: 6553054720254950285, guid: c12990e032166cf49a5bd4e26ff6a107,
+    type: 3}
+  type: 4
+  rarity: 2
+  HpStats:
+    min: 0
+    curr: 45
+    max: 45
+  attack: 40
+  defense: 50
+  speed: 24
+  level: 19
+  canEvolve: 1
+  levelToEvolve: 33
+  evolveTo: {fileID: 11400000, guid: d5bb8cde5a9dcdc458d62ad514f04114, type: 2}
+  moves:
+  - {fileID: 11400000, guid: fc462dd3549aa234692b9cf8c8131bdc, type: 2}
+  - {fileID: 11400000, guid: 9cb5351870c3d084d976810e86206cc2, type: 2}
+  - {fileID: 11400000, guid: 1988338712e211c408421869aeee5bb1, type: 2}
+  - {fileID: 11400000, guid: d194e4e56844aea4fb5bac3d2464d186, type: 2}
+  healthBar: {fileID: 0}
