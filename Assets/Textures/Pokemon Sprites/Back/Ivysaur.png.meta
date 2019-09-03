@@ -1,0 +1,2779 @@
+fileFormatVersion: 2
+guid: 16b82c3491d5bb8418b48bde68636748
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -669414873142750167
+    second: Ivysaur_0
+  - first:
+      213: 8209219674494646738
+    second: Ivysaur_1
+  - first:
+      213: -3000508637911317735
+    second: Ivysaur_2
+  - first:
+      213: 2903123733743684182
+    second: Ivysaur_3
+  - first:
+      213: -3392557424647081287
+    second: Ivysaur_4
+  - first:
+      213: 3508217801609253610
+    second: Ivysaur_5
+  - first:
+      213: 5458947693795295981
+    second: Ivysaur_6
+  - first:
+      213: 1826583385829568623
+    second: Ivysaur_7
+  - first:
+      213: 3160129465678473675
+    second: Ivysaur_8
+  - first:
+      213: 2632009038964086711
+    second: Ivysaur_9
+  - first:
+      213: 726151992656154031
+    second: Ivysaur_10
+  - first:
+      213: 739867029631307032
+    second: Ivysaur_11
+  - first:
+      213: -4514182549001996901
+    second: Ivysaur_12
+  - first:
+      213: 8831286161083254697
+    second: Ivysaur_13
+  - first:
+      213: 3937241319026304198
+    second: Ivysaur_14
+  - first:
+      213: -8759217646002612554
+    second: Ivysaur_15
+  - first:
+      213: -478180864241738355
+    second: Ivysaur_16
+  - first:
+      213: -1356615312181537834
+    second: Ivysaur_17
+  - first:
+      213: -8889157891678900840
+    second: Ivysaur_18
+  - first:
+      213: 5324185752029677086
+    second: Ivysaur_19
+  - first:
+      213: -8844734100949038220
+    second: Ivysaur_20
+  - first:
+      213: -8460302480405094692
+    second: Ivysaur_21
+  - first:
+      213: 8913554746589156088
+    second: Ivysaur_22
+  - first:
+      213: -6939833683441910339
+    second: Ivysaur_23
+  - first:
+      213: 6162072860012828634
+    second: Ivysaur_24
+  - first:
+      213: -35145109015639478
+    second: Ivysaur_25
+  - first:
+      213: 9060739779580450640
+    second: Ivysaur_26
+  - first:
+      213: -5787573685818564087
+    second: Ivysaur_27
+  - first:
+      213: -6400606599627729186
+    second: Ivysaur_28
+  - first:
+      213: -7481237069067448782
+    second: Ivysaur_29
+  - first:
+      213: -4685659265379172636
+    second: Ivysaur_30
+  - first:
+      213: 8704818693238705828
+    second: Ivysaur_31
+  - first:
+      213: 2595910609082197282
+    second: Ivysaur_32
+  - first:
+      213: 5782942007492791287
+    second: Ivysaur_33
+  - first:
+      213: -4456677832452314493
+    second: Ivysaur_34
+  - first:
+      213: -6573789849957173448
+    second: Ivysaur_35
+  - first:
+      213: 5753112835353673366
+    second: Ivysaur_36
+  - first:
+      213: -1374201182008213116
+    second: Ivysaur_37
+  - first:
+      213: -9130409277176503992
+    second: Ivysaur_38
+  - first:
+      213: -3420876899231851861
+    second: Ivysaur_39
+  - first:
+      213: -2761211436092449807
+    second: Ivysaur_40
+  - first:
+      213: 1871813158133401392
+    second: Ivysaur_41
+  - first:
+      213: 9118607094742942773
+    second: Ivysaur_42
+  - first:
+      213: -6648359976524200932
+    second: Ivysaur_43
+  - first:
+      213: 484228524622549779
+    second: Ivysaur_44
+  - first:
+      213: 6155673761176691833
+    second: Ivysaur_45
+  - first:
+      213: 6111902978363639773
+    second: Ivysaur_46
+  - first:
+      213: -2157160911355020473
+    second: Ivysaur_47
+  - first:
+      213: 2701918723749677086
+    second: Ivysaur_48
+  - first:
+      213: 149934739602145809
+    second: Ivysaur_49
+  - first:
+      213: -9070617570981891206
+    second: Ivysaur_50
+  - first:
+      213: -5161000208937784781
+    second: Ivysaur_51
+  - first:
+      213: -5457632452070821029
+    second: Ivysaur_52
+  - first:
+      213: -1017760864036193135
+    second: Ivysaur_53
+  - first:
+      213: -6736251560643602814
+    second: Ivysaur_54
+  - first:
+      213: 8788165589330844294
+    second: Ivysaur_55
+  - first:
+      213: -4042208780646922059
+    second: Ivysaur_56
+  - first:
+      213: -5759533273675026227
+    second: Ivysaur_57
+  - first:
+      213: -3236561182868538974
+    second: Ivysaur_58
+  - first:
+      213: -5242605023989019931
+    second: Ivysaur_59
+  - first:
+      213: 451265207664592558
+    second: Ivysaur_60
+  - first:
+      213: -8631236134561656213
+    second: Ivysaur_61
+  - first:
+      213: 2222990254158301851
+    second: Ivysaur_62
+  - first:
+      213: -7578000734777114585
+    second: Ivysaur_63
+  - first:
+      213: 3344925600562740209
+    second: Ivysaur_64
+  - first:
+      213: 3302856672920995160
+    second: Ivysaur_65
+  - first:
+      213: 2412977904966825317
+    second: Ivysaur_66
+  - first:
+      213: -7111648537438718298
+    second: Ivysaur_67
+  - first:
+      213: 5861916356563714751
+    second: Ivysaur_68
+  - first:
+      213: 6070874666989396631
+    second: Ivysaur_69
+  - first:
+      213: -5081989021411585552
+    second: Ivysaur_70
+  - first:
+      213: -4838781419911076555
+    second: Ivysaur_71
+  - first:
+      213: -4070786997884161941
+    second: Ivysaur_72
+  - first:
+      213: -2523703878145930873
+    second: Ivysaur_73
+  - first:
+      213: -8025554430543739015
+    second: Ivysaur_74
+  - first:
+      213: 3297127097558325191
+    second: Ivysaur_75
+  - first:
+      213: -5215773965969890329
+    second: Ivysaur_76
+  - first:
+      213: 4443438034171815859
+    second: Ivysaur_77
+  - first:
+      213: -7310121320154144289
+    second: Ivysaur_78
+  - first:
+      213: 3366472903815276493
+    second: Ivysaur_79
+  - first:
+      213: -3673259259908841233
+    second: Ivysaur_80
+  - first:
+      213: -3077578743842114788
+    second: Ivysaur_81
+  - first:
+      213: 3067249903746189786
+    second: Ivysaur_82
+  - first:
+      213: 4131029461930353787
+    second: Ivysaur_83
+  - first:
+      213: -8845907447452199009
+    second: Ivysaur_84
+  - first:
+      213: 2902987717537974576
+    second: Ivysaur_85
+  - first:
+      213: 7021808285925475802
+    second: Ivysaur_86
+  - first:
+      213: -2642797096630681942
+    second: Ivysaur_87
+  - first:
+      213: 2550798748585280683
+    second: Ivysaur_88
+  - first:
+      213: -2391848868290982542
+    second: Ivysaur_89
+  - first:
+      213: 2582870739186639255
+    second: Ivysaur_90
+  - first:
+      213: -6622026098928183471
+    second: Ivysaur_91
+  - first:
+      213: -3644987688305899080
+    second: Ivysaur_92
+  - first:
+      213: -1401021354356800997
+    second: Ivysaur_93
+  - first:
+      213: -6543268481383095272
+    second: Ivysaur_94
+  - first:
+      213: 5213275127004440553
+    second: Ivysaur_95
+  - first:
+      213: 8501505601438938158
+    second: Ivysaur_96
+  - first:
+      213: 1203828554784213813
+    second: Ivysaur_97
+  - first:
+      213: -6659830128108138245
+    second: Ivysaur_98
+  - first:
+      213: -8349067123385158623
+    second: Ivysaur_99
+  - first:
+      213: -8479745053195694904
+    second: Ivysaur_100
+  - first:
+      213: -8251670667415445912
+    second: Ivysaur_101
+  - first:
+      213: -8863862734036343541
+    second: Ivysaur_102
+  - first:
+      213: 5258860388955416860
+    second: Ivysaur_103
+  - first:
+      213: -4376999938312297989
+    second: Ivysaur_104
+  - first:
+      213: 3835790120745236840
+    second: Ivysaur_105
+  - first:
+      213: 4980740535962117699
+    second: Ivysaur_106
+  - first:
+      213: -3413656233664390805
+    second: Ivysaur_107
+  - first:
+      213: 7810732453691628971
+    second: Ivysaur_108
+  - first:
+      213: 7626033301758037996
+    second: Ivysaur_109
+  - first:
+      213: -7858163225231482407
+    second: Ivysaur_110
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ivysaur_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1760
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1017c59e5b3cf64fa548dc84f67f7a5
+      internalID: -669414873142750167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1760
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ef360e74d2a4f44ada39c454d21e80
+      internalID: 8209219674494646738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ede013602e0d264089edc5d8109803e
+      internalID: -3000508637911317735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d1230cbab1464581fbfa3e93046f0
+      internalID: 2903123733743684182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9812a4818eeaa43b67092c15320969
+      internalID: -3392557424647081287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599aafc54f3ace84e89577da4ea79085
+      internalID: 3508217801609253610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_6
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1760
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485a4842424ef584b8d963867dbdf6a5
+      internalID: 5458947693795295981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_7
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1760
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a880bddedad05be44b5f97301e97ac09
+      internalID: 1826583385829568623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_8
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9693ec0008c8e8448c226464bd11fb7
+      internalID: 3160129465678473675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_9
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1760
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1373e75dca6e84ca6947bfd873669b
+      internalID: 2632009038964086711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0203179270e2149a1d2373f3423630
+      internalID: 726151992656154031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc5a8492056b1546b06d7d831e86b48
+      internalID: 739867029631307032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1600
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4160aed3730dc14e9109c217cbaa0bb
+      internalID: -4514182549001996901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1600
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722011fc469e9b4d9d0294394c01aee
+      internalID: 8831286161083254697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_14
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1600
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd6a15d10c65ce4891dc4c10ab9a7a2
+      internalID: 3937241319026304198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1600
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ca9de70ffc6f44a93f240aae6ba269
+      internalID: -8759217646002612554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_16
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c04a085fc5e84598473b02f768897
+      internalID: -478180864241738355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_17
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d4ffe29185a5449d375bfa86551ff
+      internalID: -1356615312181537834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_18
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761195d888be3b84489c173eae6dcaee
+      internalID: -8889157891678900840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_19
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1600
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7575d2e08008b45bf347b4b3b6bdfd
+      internalID: 5324185752029677086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1440
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cd14133ffd1b345869de39fbbd151a
+      internalID: -8844734100949038220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1440
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eb96152409e504592c0a6184975b83
+      internalID: -8460302480405094692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_22
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1440
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d119098df7691840951118811dd6f40
+      internalID: 8913554746589156088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1440
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369dfa291e4bd994da4462fd4c1d61b8
+      internalID: -6939833683441910339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_24
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1440
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18906b487b6d609489f1575d1cd5145e
+      internalID: 6162072860012828634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_25
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1440
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adbdec65c24e37418689b168237b3d7
+      internalID: -35145109015639478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_26
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1440
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d969b1eb160844cb355f8bc8590c66
+      internalID: 9060739779580450640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_27
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1440
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42784fac3d3e89b48bc549dd516b81bf
+      internalID: -5787573685818564087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_28
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1440
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d745636f275243a1ff018a0be02d3
+      internalID: -6400606599627729186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_29
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1440
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299fe851d08923488b510b6559b879a
+      internalID: -7481237069067448782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9205e673934f0444c8efa2412b39e684
+      internalID: -4685659265379172636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92df27d6a879c924688eef29691ca6d3
+      internalID: 8704818693238705828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_32
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21218e5da921d464d8e7f54447c17cc9
+      internalID: 2595910609082197282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_33
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6404c9592841944b63f65c2bf51d1c
+      internalID: 5782942007492791287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_34
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1280
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36affe74dcde28748bca8d0f5abc252b
+      internalID: -4456677832452314493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_35
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1280
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4661008444b55b41a5590c58c0c1341
+      internalID: -6573789849957173448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_36
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153cdffcb6eec4f4ba837df9517385b0
+      internalID: 5753112835353673366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_37
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf4ff3077d54bf44849c30a98d41eb8
+      internalID: -1374201182008213116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_38
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90a40c6f84e53e43b0e036c48cc025f
+      internalID: -9130409277176503992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_39
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1280
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3b9c87572a1a6418192f34f9348c02
+      internalID: -3420876899231851861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1120
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab559aee7e6c314889da834afc95b6d
+      internalID: -2761211436092449807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_41
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1120
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1608153525facb44e952f962d1d043d2
+      internalID: 1871813158133401392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_42
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1120
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a903ebea18741a44aac7e0a9dc96e562
+      internalID: 9118607094742942773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1120
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac6951a78ec02e4c85c511cbf26ae39
+      internalID: -6648359976524200932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_44
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1120
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704769feed5b20447adb0aad04e15f23
+      internalID: 484228524622549779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_45
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1120
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653afb4e4061fba48ab2b79a8beec641
+      internalID: 6155673761176691833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_46
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1120
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8b36f6fbc302c459a9450b6d6b3632
+      internalID: 6111902978363639773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_47
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1120
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01835b50e368c4590e28bbdc316003
+      internalID: -2157160911355020473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_48
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1120
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304c9674b8eb94c4e84f74c56f760c64
+      internalID: 2701918723749677086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_49
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1120
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549adcb84b40215419d98143ac6203e5
+      internalID: 149934739602145809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_50
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2dbe05a1b368643bdf80e4b5cebdd8
+      internalID: -9070617570981891206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12cd0548a4d31e4ca21ca129219a0eb
+      internalID: -5161000208937784781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_52
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fa6845ae7172641b6382bb7f9db3c0
+      internalID: -5457632452070821029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_53
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6f639491c8e94fa2d84f249517aae
+      internalID: -1017760864036193135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_54
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 960
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9ccda1d5f35e3468edbbd8dbb0c1ba
+      internalID: -6736251560643602814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_55
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 960
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6522f13966dbf4f8552898e138cf37
+      internalID: 8788165589330844294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_56
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 960
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9a681277f95e499138414552c0125
+      internalID: -4042208780646922059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_57
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 960
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d92cc0a282bd1d4bbc19f92fe58cb2e
+      internalID: -5759533273675026227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_58
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04737ec26e4ed448e9e27095c79531
+      internalID: -3236561182868538974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_59
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 960
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0862b4889cb00df42966b6a2be3e45ee
+      internalID: -5242605023989019931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_60
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3524f36ddea813d4bb4d5f9f9c931f08
+      internalID: 451265207664592558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_61
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6f4986d6c2afb4ba103b442c1ad620
+      internalID: -8631236134561656213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_62
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 800
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3571a59de1ede04698d8a9aabb98798
+      internalID: 2222990254158301851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_63
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 800
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e4a2c3d23b1d469128f1fc32d6381
+      internalID: -7578000734777114585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_64
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bed58eebb7c4746a7a64288b08447f
+      internalID: 3344925600562740209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_65
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856647d2140720448ac1c9e92cb5494
+      internalID: 3302856672920995160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_66
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05cd3c71d94f942b6a3d7385acad57
+      internalID: 2412977904966825317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_67
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 800
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da54308f197f17479be1122007c398a
+      internalID: -7111648537438718298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_68
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 800
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b25e7db85185740ad8c7b81711887e
+      internalID: 5861916356563714751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_69
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 800
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eda39bea6e167489c5657b66d2622d
+      internalID: 6070874666989396631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 640
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788247f25ae3e954faccba1265d083ca
+      internalID: -5081989021411585552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_71
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 640
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc04d16ccab7aa14c8df87e17f4f130e
+      internalID: -4838781419911076555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_72
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdea1bfaebde27e44a9391c43c5e63c4
+      internalID: -4070786997884161941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_73
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da32829f7905a9b4885f1465bf1d6a2d
+      internalID: -2523703878145930873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_74
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5c1c27b86e3c540b5032bdf8e963b3
+      internalID: -8025554430543739015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_75
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea9165980c723747aabe035c729b34a
+      internalID: 3297127097558325191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_76
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 640
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6fb299840b6045ace0427474edee0
+      internalID: -5215773965969890329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_77
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 640
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42cfb94bbf38a246b6c2479984a6d84
+      internalID: 4443438034171815859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_78
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe1ebb65cb8f9b48908aa9d3b7a8609
+      internalID: -7310121320154144289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_79
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 640
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ba11358fcabc444aad77bbcbb5c741
+      internalID: 3366472903815276493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_80
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8445fe64532ab64992a7a9caed0602d
+      internalID: -3673259259908841233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_81
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d44d2a4f6c4c4085584903f41a36b
+      internalID: -3077578743842114788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_82
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 480
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ef1280eaef5e44b0543f79ffcd82b
+      internalID: 3067249903746189786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 480
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f40d1fdae092d44913b957207f1858
+      internalID: 4131029461930353787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_84
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 480
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78f0393e91fe4e4a8eeacdc8c694a87
+      internalID: -8845907447452199009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_85
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 480
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfc62e01f1813b429abfe71c583d266
+      internalID: 2902987717537974576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_86
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e07ee92cd9be3498236371fc7b637a
+      internalID: 7021808285925475802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_87
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4c896447ab75243976d18876b9afcb
+      internalID: -2642797096630681942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_88
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df834ebc6dc62a84a9aabe04ae0e90ee
+      internalID: 2550798748585280683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_89
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 480
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56ca7ad27df9eb4387630c6c02bac4a
+      internalID: -2391848868290982542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_90
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 320
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2540ca0f80d814fa76f14284e15ed2
+      internalID: 2582870739186639255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_91
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 320
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbaad25173817b4e98fbbbf7a6727ad
+      internalID: -6622026098928183471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 320
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3edae31e741bb499a0713043e5cba4
+      internalID: -3644987688305899080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_93
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 320
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20952dd7042aa23498ae84d146a55da3
+      internalID: -1401021354356800997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_94
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 320
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713c4b2a28901c41b82ffe8ee7f454d
+      internalID: -6543268481383095272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_95
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 320
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bbd164217c28741a6e3bb2d1d66321
+      internalID: 5213275127004440553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_96
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 320
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18142cd240d3d1488366964f278a122
+      internalID: 8501505601438938158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_97
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 320
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c2cf6c51e4bdf49abae3162ea27439
+      internalID: 1203828554784213813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_98
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 320
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daade3836f5f66743b1d22a38bc363dd
+      internalID: -6659830128108138245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_99
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 320
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ca9acc58708c419b5e5da06fd0bf1
+      internalID: -8349067123385158623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_100
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 160
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258a3a03d35552b449136b953cdce59c
+      internalID: -8479745053195694904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_101
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 160
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e015ee883bb64fa77b919a8d61247
+      internalID: -8251670667415445912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_102
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebdb109e88d0664da820d16c44224e5
+      internalID: -8863862734036343541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_103
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fae51df531f824cad540f88702f07b
+      internalID: 5258860388955416860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_104
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09816011febed39448251883f43d39f1
+      internalID: -4376999938312297989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_105
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054d0e028ea16147851df46a061007e
+      internalID: 3835790120745236840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_106
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3325fa1da859b854eac798742d9fd17c
+      internalID: 4980740535962117699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_107
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab2ba4c4fb84c7419db24772e178fe9
+      internalID: -3413656233664390805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_108
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f588599bb602944ac3cbec994b67b4
+      internalID: 7810732453691628971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_109
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 160
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e55ee302aade45489b304e701ba33d9
+      internalID: 7626033301758037996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivysaur_110
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698dc662cbda58439db132c6a0d2a34
+      internalID: -7858163225231482407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

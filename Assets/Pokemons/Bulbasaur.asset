@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
-  name: Bulbasaur
-  frontImage: {fileID: -3294673022456854868, guid: 57efd7aac0445194d84a6545c8f5921a,
+  name: BULBASAUR
+  frontImage: {fileID: 4787346263594426768, guid: 2c19b1eda22c616448babb20453001a9,
     type: 3}
-  backImage: {fileID: 6524708339101500712, guid: c12990e032166cf49a5bd4e26ff6a107,
+  backImage: {fileID: 4787346263594426768, guid: cd492fca49a170f4086e0c8d2018d452,
     type: 3}
   type: 4
   rarity: 2

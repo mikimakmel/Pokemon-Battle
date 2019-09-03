@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Pikachu
   m_EditorClassIdentifier: 
-  name: Pikachu
-  frontImage: {fileID: 2645694170527456053, guid: 57efd7aac0445194d84a6545c8f5921a,
+  name: PIKACHU
+  frontImage: {fileID: 58068862916304467, guid: 339f241ee52df4c479ea0161fc82a364,
     type: 3}
-  backImage: {fileID: -7054456155936820115, guid: c12990e032166cf49a5bd4e26ff6a107,
-    type: 3}
+  backImage: {fileID: 58068862916304467, guid: 1bfca37db5503ce4c97cb32d4390119f, type: 3}
   type: 3
   rarity: 3
   HpStats:
@@ -34,5 +33,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 80c8e04c80c91664b9206f73d4a1b545, type: 2}
   - {fileID: 11400000, guid: 32d1d126aff015740ae894374941dcec, type: 2}
   - {fileID: 11400000, guid: 9cb5351870c3d084d976810e86206cc2, type: 2}
-  - {fileID: 11400000, guid: 80c8e04c80c91664b9206f73d4a1b545, type: 2}
+  - {fileID: 11400000, guid: 62bcef94603cb9f47b89901c4e0ac399, type: 2}
   healthBar: {fileID: 0}

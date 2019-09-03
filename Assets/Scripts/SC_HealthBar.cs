@@ -19,11 +19,11 @@ public class SC_HealthBar : MonoBehaviour
 
     public void SetHealthBarColor(float HP)
     {
-        if(HP < 1f && HP > 0.5f)
+        if(HP <= 1f && HP > 0.5f)
             GetComponent<Image>().color = GetColorFromHexString(Constants.HEALTH_BAR_COLOR_GREEN);
-        else if (HP < 0.5f && HP > 0.25f)
+        else if (HP <= 0.5f && HP > 0.25f)
             GetComponent<Image>().color = GetColorFromHexString(Constants.HEALTH_BAR_COLOR_ORANGE);
-        else if (HP < 0.25f && HP > 0f)
+        else if (HP <= 0.25f && HP > 0f)
             GetComponent<Image>().color = GetColorFromHexString(Constants.HEALTH_BAR_COLOR_RED);
     }
 

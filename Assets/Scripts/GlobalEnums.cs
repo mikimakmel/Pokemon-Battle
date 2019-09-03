@@ -44,11 +44,15 @@ public class GlobalEnums : MonoBehaviour
 
     public enum BattleStates
     {
+        Start,
+        Battling,
+        GameOver
+    }
+
+    public enum Turns
+    {
         PlayersTurn,
         FoesTurn,
-        Start,
-        //Win,
-        //Lose
     }
 
     public enum MessageBoxState

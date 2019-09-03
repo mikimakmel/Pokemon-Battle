@@ -18,3 +18,4 @@ MonoBehaviour:
   power: 85
   accuracy: 100
   type: 0
+  moveSound: {fileID: 0}

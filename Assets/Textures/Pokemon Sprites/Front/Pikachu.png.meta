@@ -1,0 +1,2803 @@
+fileFormatVersion: 2
+guid: 339f241ee52df4c479ea0161fc82a364
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 58068862916304467
+    second: Pikachu_0
+  - first:
+      213: -8218708793093729220
+    second: Pikachu_1
+  - first:
+      213: 3933934866695066689
+    second: Pikachu_2
+  - first:
+      213: 9082329712877043248
+    second: Pikachu_3
+  - first:
+      213: 1402059498370422341
+    second: Pikachu_4
+  - first:
+      213: -5317464419390191956
+    second: Pikachu_5
+  - first:
+      213: 1806277327301497415
+    second: Pikachu_6
+  - first:
+      213: -4490346581672528806
+    second: Pikachu_7
+  - first:
+      213: -6120008649996594866
+    second: Pikachu_8
+  - first:
+      213: -170073336471827049
+    second: Pikachu_9
+  - first:
+      213: 6136110763522128764
+    second: Pikachu_10
+  - first:
+      213: 7955256961597086436
+    second: Pikachu_11
+  - first:
+      213: -3670323996785916956
+    second: Pikachu_12
+  - first:
+      213: 2875974844767426063
+    second: Pikachu_13
+  - first:
+      213: -1633151359316727681
+    second: Pikachu_14
+  - first:
+      213: 3018789563504720415
+    second: Pikachu_15
+  - first:
+      213: 4617553489174818008
+    second: Pikachu_16
+  - first:
+      213: 7474737045120400011
+    second: Pikachu_17
+  - first:
+      213: -8220367720746971656
+    second: Pikachu_18
+  - first:
+      213: 2025275744196173248
+    second: Pikachu_19
+  - first:
+      213: 4883557737065230709
+    second: Pikachu_20
+  - first:
+      213: 8079849525226021774
+    second: Pikachu_21
+  - first:
+      213: -6235871249829079352
+    second: Pikachu_22
+  - first:
+      213: -8304283319077733660
+    second: Pikachu_23
+  - first:
+      213: -3884267469806470997
+    second: Pikachu_24
+  - first:
+      213: 657064680262002107
+    second: Pikachu_25
+  - first:
+      213: -7118168062130839068
+    second: Pikachu_26
+  - first:
+      213: 7852342591816300999
+    second: Pikachu_27
+  - first:
+      213: -8795702337878328379
+    second: Pikachu_28
+  - first:
+      213: 1234055539670735402
+    second: Pikachu_29
+  - first:
+      213: 1011348572723195531
+    second: Pikachu_30
+  - first:
+      213: 8931172906532933044
+    second: Pikachu_31
+  - first:
+      213: 4492827052530106383
+    second: Pikachu_32
+  - first:
+      213: -4203400765454588636
+    second: Pikachu_33
+  - first:
+      213: -8348351586755493017
+    second: Pikachu_34
+  - first:
+      213: -2306913702570917490
+    second: Pikachu_35
+  - first:
+      213: -2571190050656529534
+    second: Pikachu_36
+  - first:
+      213: -8026230037880349058
+    second: Pikachu_37
+  - first:
+      213: -7326998253148779728
+    second: Pikachu_38
+  - first:
+      213: 5669321495684560400
+    second: Pikachu_39
+  - first:
+      213: -7192253700738712851
+    second: Pikachu_40
+  - first:
+      213: -2960539704391119078
+    second: Pikachu_41
+  - first:
+      213: -9023199379302739719
+    second: Pikachu_42
+  - first:
+      213: 2597031792620537298
+    second: Pikachu_43
+  - first:
+      213: 9123079881728300123
+    second: Pikachu_44
+  - first:
+      213: -1687954196709352176
+    second: Pikachu_45
+  - first:
+      213: 3704380702035042658
+    second: Pikachu_46
+  - first:
+      213: -5959379841194326621
+    second: Pikachu_47
+  - first:
+      213: -5435319449613459247
+    second: Pikachu_48
+  - first:
+      213: 1932195048617727297
+    second: Pikachu_49
+  - first:
+      213: 3742299649097301420
+    second: Pikachu_50
+  - first:
+      213: 1113462346843567769
+    second: Pikachu_51
+  - first:
+      213: 1782929907265645498
+    second: Pikachu_52
+  - first:
+      213: 205503327752700774
+    second: Pikachu_53
+  - first:
+      213: -7890321854157582841
+    second: Pikachu_54
+  - first:
+      213: 8460148344595333816
+    second: Pikachu_55
+  - first:
+      213: 617957806100058604
+    second: Pikachu_56
+  - first:
+      213: 5877790617127095711
+    second: Pikachu_57
+  - first:
+      213: -1629201710143829233
+    second: Pikachu_58
+  - first:
+      213: -1001146167336397095
+    second: Pikachu_59
+  - first:
+      213: 3551437430262476694
+    second: Pikachu_60
+  - first:
+      213: -4633075808260023074
+    second: Pikachu_61
+  - first:
+      213: -4701173487005336165
+    second: Pikachu_62
+  - first:
+      213: 5821847852220873702
+    second: Pikachu_63
+  - first:
+      213: 8990663744488754518
+    second: Pikachu_64
+  - first:
+      213: 3121208377184306415
+    second: Pikachu_65
+  - first:
+      213: 3129352314618507641
+    second: Pikachu_66
+  - first:
+      213: -7171737399057489019
+    second: Pikachu_67
+  - first:
+      213: 8812248418093169198
+    second: Pikachu_68
+  - first:
+      213: 1109648212056407731
+    second: Pikachu_69
+  - first:
+      213: -956392976482333410
+    second: Pikachu_70
+  - first:
+      213: -5713663286681810668
+    second: Pikachu_71
+  - first:
+      213: -4818503928688020651
+    second: Pikachu_72
+  - first:
+      213: 705338254157067348
+    second: Pikachu_73
+  - first:
+      213: -132455875903176156
+    second: Pikachu_74
+  - first:
+      213: 6060899066405825173
+    second: Pikachu_75
+  - first:
+      213: 9119394141553832607
+    second: Pikachu_76
+  - first:
+      213: -8028169051086738506
+    second: Pikachu_77
+  - first:
+      213: -1042723037784810674
+    second: Pikachu_78
+  - first:
+      213: 5085587845630627126
+    second: Pikachu_79
+  - first:
+      213: -3677990128488782484
+    second: Pikachu_80
+  - first:
+      213: -6930839462212427712
+    second: Pikachu_81
+  - first:
+      213: -5839934871056732799
+    second: Pikachu_82
+  - first:
+      213: -4133669084819902428
+    second: Pikachu_83
+  - first:
+      213: 5965854844631870129
+    second: Pikachu_84
+  - first:
+      213: 4956438972778444300
+    second: Pikachu_85
+  - first:
+      213: -4493664269440905224
+    second: Pikachu_86
+  - first:
+      213: 6070855197922834764
+    second: Pikachu_87
+  - first:
+      213: -4672620043920789215
+    second: Pikachu_88
+  - first:
+      213: -3630582141440943565
+    second: Pikachu_89
+  - first:
+      213: -142908715089382375
+    second: Pikachu_90
+  - first:
+      213: 3676077710873303958
+    second: Pikachu_91
+  - first:
+      213: -2162682314314228781
+    second: Pikachu_92
+  - first:
+      213: 5741860901721214690
+    second: Pikachu_93
+  - first:
+      213: 324823661993956828
+    second: Pikachu_94
+  - first:
+      213: -3623314884710935074
+    second: Pikachu_95
+  - first:
+      213: 6692292232095629692
+    second: Pikachu_96
+  - first:
+      213: -593470336650336672
+    second: Pikachu_97
+  - first:
+      213: 7067168797686473384
+    second: Pikachu_98
+  - first:
+      213: -569858383513744673
+    second: Pikachu_99
+  - first:
+      213: -8589526629429399113
+    second: Pikachu_100
+  - first:
+      213: -3713009761910345849
+    second: Pikachu_101
+  - first:
+      213: -2562056946001445888
+    second: Pikachu_102
+  - first:
+      213: 1703470705666110692
+    second: Pikachu_103
+  - first:
+      213: -7984117409303601743
+    second: Pikachu_104
+  - first:
+      213: -8439726181126216779
+    second: Pikachu_105
+  - first:
+      213: 6952044930822200564
+    second: Pikachu_106
+  - first:
+      213: 100172107420759363
+    second: Pikachu_107
+  - first:
+      213: -6465333287923644835
+    second: Pikachu_108
+  - first:
+      213: -1257450195241707779
+    second: Pikachu_109
+  - first:
+      213: -6697929875907693107
+    second: Pikachu_110
+  - first:
+      213: 6057678951446041826
+    second: Pikachu_111
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pikachu_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1760
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f38cd45877cc624ba6b97bbaeda3096
+      internalID: 58068862916304467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1760
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d8c602fda30a04b9ad239ad27714ab
+      internalID: -8218708793093729220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1760
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f275ddf371ed1d4fb082346eabf096b
+      internalID: 3933934866695066689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1760
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f140a84d3210c3418e3d075f43add09
+      internalID: 9082329712877043248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_4
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1760
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f82a0264114b2449dabc69f407e099
+      internalID: 1402059498370422341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1760
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9299f5d55783b44b62317127f80f39
+      internalID: -5317464419390191956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_6
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1760
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb12e82cb6427ee40be8bf21e9c6831e
+      internalID: 1806277327301497415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_7
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1760
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc139a44c3b0194696bd476b78973c7
+      internalID: -4490346581672528806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_8
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1760
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b0abffdf33fbe4b9e45aad4a7e1814
+      internalID: -6120008649996594866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_9
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1760
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c632fcc862c6704ebf4649abe312cd1
+      internalID: -170073336471827049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1600
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbf9d6a74ce1144aabd02e5d24d3328
+      internalID: 6136110763522128764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1600
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0dbb4bfe368424988a5e7bd2f4da0c
+      internalID: 7955256961597086436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1600
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d311b31c218f74f9646cb0a73ffc9d
+      internalID: -3670323996785916956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1600
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae608a33d328efa479936844f5d16a2e
+      internalID: 2875974844767426063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1600
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3894a913e8e572d4288cc6860724eb16
+      internalID: -1633151359316727681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_15
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1600
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef6f8d9f5bb951408331aa52dcd17dd
+      internalID: 3018789563504720415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_16
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1600
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfcc7ce3cc12424e9035a062927cfae
+      internalID: 4617553489174818008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_17
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1600
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540aebc1327ec44c9bc162d81341323
+      internalID: 7474737045120400011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_18
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1600
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e2536b4ef6311409e0265631c01a7c
+      internalID: -8220367720746971656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1600
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9919457ea84ab843bdc482d287dd632
+      internalID: 2025275744196173248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1440
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43647255dc90284a8a0717d58aa9b14
+      internalID: 4883557737065230709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1440
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b79415ab6b116240a9379d2c8116217
+      internalID: 8079849525226021774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_22
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1440
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700d5fd15002454e8fbdbe4a6c31d28
+      internalID: -6235871249829079352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_23
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1440
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718cae234008c0d4199688f38a7f71c3
+      internalID: -8304283319077733660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_24
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1440
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef5d757ec69b84da3f348a2ddda2c6
+      internalID: -3884267469806470997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_25
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1440
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ea9ed9fb555ca4a95bb9b928ae8b9e
+      internalID: 657064680262002107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_26
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1440
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4405e2bb4f0542b439d4256fc8e903a6
+      internalID: -7118168062130839068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_27
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1440
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893c9abde7ad61643a57fcad069cb0f7
+      internalID: 7852342591816300999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_28
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1440
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd024597cd37434888526f5f177315d
+      internalID: -8795702337878328379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_29
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1440
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2b37daf473b324daa62c1509d18811
+      internalID: 1234055539670735402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1280
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da13525821c4d044b90edc832a7ea58
+      internalID: 1011348572723195531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_31
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1280
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c410109ac2e04d489f92c5e26f46ade
+      internalID: 8931172906532933044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1280
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46736425cc201f94dae82e6dc124190d
+      internalID: 4492827052530106383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_33
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1280
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44e3dd06f56b3f4790a79c6b4197a0d
+      internalID: -4203400765454588636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_34
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1280
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d580b1735ed364ca3b854438163cb0
+      internalID: -8348351586755493017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_35
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1280
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3856d68a8c0ef964bb36403b8caaa09b
+      internalID: -2306913702570917490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_36
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1280
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359233639d53f6443bc90f266e48dcd1
+      internalID: -2571190050656529534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_37
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1280
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f21fe029b8d904ab511d145d95f77c
+      internalID: -8026230037880349058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_38
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1280
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef5a3243f01e1b40993e8bf29ca6680
+      internalID: -7326998253148779728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_39
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1280
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf7ced971193c46bbd3d3187581344
+      internalID: 5669321495684560400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1120
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a36e3af3889740bce1c5965611b61
+      internalID: -7192253700738712851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_41
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1120
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4e18733e31cd244b4a1f3af4ac7004
+      internalID: -2960539704391119078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_42
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1120
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d529c89dcb51f44b2fb68cf562da4b
+      internalID: -9023199379302739719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_43
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1120
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0efac4ef1222642a69e01de953d0ae
+      internalID: 2597031792620537298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_44
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1120
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578e2a0630923bf4dac787ef4d313d94
+      internalID: 9123079881728300123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_45
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1120
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fd048ddfea56c4f91c39117cfda8f2
+      internalID: -1687954196709352176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_46
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1120
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15eaeda4886eb24894ce3b29a76d934
+      internalID: 3704380702035042658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_47
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1120
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466f1eee6fcbf2742a086d95555a6ee6
+      internalID: -5959379841194326621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_48
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1120
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cab16c70336f449aaa22ce02bc7368
+      internalID: -5435319449613459247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_49
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1120
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ccdd94219f8ef4e9db130f6c8453c4
+      internalID: 1932195048617727297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 960
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a81b142c008d948a65e035c2f537b9
+      internalID: 3742299649097301420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 960
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe2062c15169e44aa62fb5ed7f39665
+      internalID: 1113462346843567769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 960
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a337b7f63dbb2a94c9f001e6b31f19bf
+      internalID: 1782929907265645498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_53
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 960
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475e8fc636eee0b4f83b09e1f84c0950
+      internalID: 205503327752700774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_54
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 960
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c963ea4f5ca074281d0e57482619d3
+      internalID: -7890321854157582841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_55
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 960
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602c6719cf328bc44ad56e33ee6bb13f
+      internalID: 8460148344595333816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_56
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 960
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf8e95bcce0cc42979d0f629c489c7
+      internalID: 617957806100058604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_57
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 960
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa975de050ad4940af72d09449d3698
+      internalID: 5877790617127095711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_58
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 960
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c52aa8605d1da4d8143a31c6529646
+      internalID: -1629201710143829233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_59
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 960
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422149e14ace47c4c8370c8f3503889e
+      internalID: -1001146167336397095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_60
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 800
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5f02b82e5800e46bb7c6ce91d4bb54
+      internalID: 3551437430262476694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_61
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 800
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffac89346af0b0488a2aae122a5dc81
+      internalID: -4633075808260023074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_62
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 800
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f611eac35098af4a812bc866a573fca
+      internalID: -4701173487005336165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_63
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 800
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f46caf9c10dce40a97ae81447a9ed9
+      internalID: 5821847852220873702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_64
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 800
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2421b1705706ee418643a87e53b400d
+      internalID: 8990663744488754518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_65
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 800
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b8340528478346b6df7dfee9fe637
+      internalID: 3121208377184306415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_66
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 800
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ddf6c5191b8e54a9f17da62535c21d
+      internalID: 3129352314618507641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_67
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 800
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05185ad38a43a841b5b39776f96c8ae
+      internalID: -7171737399057489019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_68
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 800
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4d30c33822a924a96b032728835687
+      internalID: 8812248418093169198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_69
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4529a69b9d2e0f84591ed007c3027ae5
+      internalID: 1109648212056407731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_70
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 640
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c34f9194ec70243abfc8b637c1a620
+      internalID: -956392976482333410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 640
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a2b1d87545144692febafb2b2a379
+      internalID: -5713663286681810668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 640
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99ab0d03931e9b418296e0e95d9a37a
+      internalID: -4818503928688020651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_73
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 640
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d546a5f4cb0bb4c4db57512a0cec8e89
+      internalID: 705338254157067348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_74
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 640
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770cd030018f05c448692cb5cc133a7b
+      internalID: -132455875903176156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_75
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 640
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea4d4da11817fe4ebf3bfe4a7047f70
+      internalID: 6060899066405825173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_76
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 640
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d04ac0dc86f1bb48b9a78b683211206
+      internalID: 9119394141553832607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_77
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 640
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a530ff4f1b86ede4c91d1fb49eda8502
+      internalID: -8028169051086738506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_78
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 640
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba801525d73c9943a7e10f554fa43ce
+      internalID: -1042723037784810674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_79
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 640
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b544fde58aa9e42bb4e0a89107a1b9
+      internalID: 5085587845630627126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_80
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 480
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2da3e440bea05d41af22ac36a25f8f9
+      internalID: -3677990128488782484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_81
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 480
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd70dd59078e340b839acfce35e4f5
+      internalID: -6930839462212427712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 480
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9afd09dcb1667f48af4bf761c70f2e4
+      internalID: -5839934871056732799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_83
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 480
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d0d073653fe144ebb27ccb5d7d4b17
+      internalID: -4133669084819902428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_84
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 480
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97411dd98b4711c489131410fd03bd55
+      internalID: 5965854844631870129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_85
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 480
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a24eff3eef4de40b9e2d02d59e8146
+      internalID: 4956438972778444300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_86
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 480
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c8ea1373bce4544adf2c888b0fff5e
+      internalID: -4493664269440905224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_87
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 480
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c446a6aea2addb438577bbce6ad4fd7
+      internalID: 6070855197922834764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_88
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 480
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4513f3b7d000447a7556a36b958300
+      internalID: -4672620043920789215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_89
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 480
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f58c2baeb43b59428ecfe9ed9377db6
+      internalID: -3630582141440943565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_90
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 320
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18695d2ed4704e44ebbc1daefabb2874
+      internalID: -142908715089382375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_91
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 320
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940614576f9e7144cb52e8455408d8cf
+      internalID: 3676077710873303958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_92
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae876cde0fc6eb43a13b945f3919f9c
+      internalID: -2162682314314228781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_93
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb607d40775844d8d53bc469e09071
+      internalID: 5741860901721214690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_94
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac05a657732438c46acf815ce89a3829
+      internalID: 324823661993956828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_95
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb129ecea6803d43bd3219273883fca
+      internalID: -3623314884710935074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_96
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 320
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925369134ba8e544af5ef34e5c76d96
+      internalID: 6692292232095629692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_97
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 320
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c1845533f1aa040a8a2638bfcba5c9
+      internalID: -593470336650336672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_98
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1f53c8d19cbe46a4c7bfabd9004b4
+      internalID: 7067168797686473384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_99
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 320
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a017fc15a1e01e4cbce018125855f6f
+      internalID: -569858383513744673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_100
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 160
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1210e5bf2efd7a749855bc20535212e2
+      internalID: -8589526629429399113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_101
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 160
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b18f0e3c2bdb4682ba383130c6e87
+      internalID: -3713009761910345849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_102
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 160
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4f3502b739ac46b13c4c62a02c7ca
+      internalID: -2562056946001445888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_103
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 160
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887696d36c4b8f34997a30aa4447c064
+      internalID: 1703470705666110692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_104
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 160
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4cf12f2e2bcbc4f95feaebc0667d0a
+      internalID: -7984117409303601743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_105
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 160
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60da42184f735c9459860e896310a4c4
+      internalID: -8439726181126216779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_106
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 160
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd78e8f10b429114bb0431852f509e93
+      internalID: 6952044930822200564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_107
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 160
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5329ab914ffed954ab3821035e08d987
+      internalID: 100172107420759363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_108
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 160
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68293454c71db245ad9abfa07d69c75
+      internalID: -6465333287923644835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_109
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 160
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec4b0b9326e17478038b868869c2f1
+      internalID: -1257450195241707779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_110
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f2ef588c0563a4b8610c0db0cca9a6
+      internalID: -6697929875907693107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikachu_111
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34afe9da06974b842b4de90ee1e4832a
+      internalID: 6057678951446041826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

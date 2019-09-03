@@ -13,7 +13,6 @@ public class SC_GameLogic : MonoBehaviour
     public SC_BattleManager SC_BattleManager;
     public AudioSource battleMusic;
     private Button Button_play;
-
     private Dictionary<string, GameObject> rectangles;
 
     private void Awake()
@@ -21,9 +20,8 @@ public class SC_GameLogic : MonoBehaviour
         battleMusic = battleMusic.GetComponent<AudioSource>();
         Button_play = GameObject.Find("Button_play").GetComponent<Button>();
         InitRectangles();
-        battleCamera.SetActive(true);
-        menuCamera.SetActive(false);
-        EnterBattle();
+        battleCamera.SetActive(false);
+        menuCamera.SetActive(true);
     }
 
     private void InitRectangles()
@@ -48,15 +46,20 @@ public class SC_GameLogic : MonoBehaviour
     private IEnumerator BattleTransition(float delay)
     {
         yield return new WaitForSeconds(1f);
-        //for (int i = 1; i <= rectangles.Count; i++)
-        //{
-        //    yield return new WaitForSeconds(delay);
-        //    if (rectangles.ContainsKey("Rec_" + i))
-        //        rectangles["Rec_" + i].SetActive(true);
-        //    yield return new WaitForSeconds(delay);
-        //}
+        for (int i = 1; i <= rectangles.Count; i++)
+        {
+            yield return new WaitForSeconds(delay);
+            if (rectangles.ContainsKey("Rec_" + i))
+                rectangles["Rec_" + i].SetActive(true);
+            yield return new WaitForSeconds(delay);
+        }
         menuCamera.SetActive(false);
         battleCamera.SetActive(true);
+        for (int i = 1; i <= rectangles.Count; i++)
+        {
+            if (rectangles.ContainsKey("Rec_" + i))
+                rectangles["Rec_" + i].SetActive(false);
+        }
     }
 
     public List<SC_BasePokemon> GetPokemonByRarity(GlobalEnums.Rarity rarity)

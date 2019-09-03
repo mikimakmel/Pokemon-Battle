@@ -1,0 +1,2491 @@
+fileFormatVersion: 2
+guid: 2c19b1eda22c616448babb20453001a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4787346263594426768
+    second: Bulbasaur_0
+  - first:
+      213: -891796366352155390
+    second: Bulbasaur_1
+  - first:
+      213: -678092549506812834
+    second: Bulbasaur_2
+  - first:
+      213: -8847049717987542582
+    second: Bulbasaur_3
+  - first:
+      213: -6997040532113702773
+    second: Bulbasaur_4
+  - first:
+      213: 8895941586126025300
+    second: Bulbasaur_5
+  - first:
+      213: -4422410196696194995
+    second: Bulbasaur_6
+  - first:
+      213: 5038139264767690798
+    second: Bulbasaur_7
+  - first:
+      213: -480593047520023536
+    second: Bulbasaur_8
+  - first:
+      213: 7416151671826004449
+    second: Bulbasaur_9
+  - first:
+      213: 2676986198339474730
+    second: Bulbasaur_10
+  - first:
+      213: -2157112961697414795
+    second: Bulbasaur_11
+  - first:
+      213: 5355019424553724411
+    second: Bulbasaur_12
+  - first:
+      213: -2535038679533900083
+    second: Bulbasaur_13
+  - first:
+      213: -4286707608388928
+    second: Bulbasaur_14
+  - first:
+      213: -66516353851998713
+    second: Bulbasaur_15
+  - first:
+      213: -8718643348598118672
+    second: Bulbasaur_16
+  - first:
+      213: 4585033246657928105
+    second: Bulbasaur_17
+  - first:
+      213: 6077559511023904353
+    second: Bulbasaur_18
+  - first:
+      213: -329109725538706522
+    second: Bulbasaur_19
+  - first:
+      213: -3326485947120196562
+    second: Bulbasaur_20
+  - first:
+      213: 5582347493351168098
+    second: Bulbasaur_21
+  - first:
+      213: 6129489866661934303
+    second: Bulbasaur_22
+  - first:
+      213: -1397060625363602511
+    second: Bulbasaur_23
+  - first:
+      213: 7718440071321485160
+    second: Bulbasaur_24
+  - first:
+      213: -5089718751616282301
+    second: Bulbasaur_25
+  - first:
+      213: -195563746169236212
+    second: Bulbasaur_26
+  - first:
+      213: 8045259765780631433
+    second: Bulbasaur_27
+  - first:
+      213: -8896853959259463247
+    second: Bulbasaur_28
+  - first:
+      213: 5673029242394438758
+    second: Bulbasaur_29
+  - first:
+      213: 990070286896948881
+    second: Bulbasaur_30
+  - first:
+      213: -5846452401064792705
+    second: Bulbasaur_31
+  - first:
+      213: -2485590927633039310
+    second: Bulbasaur_32
+  - first:
+      213: 5768847507841975404
+    second: Bulbasaur_33
+  - first:
+      213: 2072534884077986365
+    second: Bulbasaur_34
+  - first:
+      213: 2950309588250022436
+    second: Bulbasaur_35
+  - first:
+      213: -4465120131690966745
+    second: Bulbasaur_36
+  - first:
+      213: -4296407077067918536
+    second: Bulbasaur_37
+  - first:
+      213: 7254585372975060563
+    second: Bulbasaur_38
+  - first:
+      213: -6626003407389286680
+    second: Bulbasaur_39
+  - first:
+      213: -2429320076889838577
+    second: Bulbasaur_40
+  - first:
+      213: -7499554814471836973
+    second: Bulbasaur_41
+  - first:
+      213: 8252780539199483123
+    second: Bulbasaur_42
+  - first:
+      213: -6910408698013981549
+    second: Bulbasaur_43
+  - first:
+      213: 6271466497044975279
+    second: Bulbasaur_44
+  - first:
+      213: 5664474215055661194
+    second: Bulbasaur_45
+  - first:
+      213: 4700239845482806726
+    second: Bulbasaur_46
+  - first:
+      213: -8179132881356460679
+    second: Bulbasaur_47
+  - first:
+      213: -7492711018644364240
+    second: Bulbasaur_48
+  - first:
+      213: -146220220001691392
+    second: Bulbasaur_49
+  - first:
+      213: -6982874559567224212
+    second: Bulbasaur_50
+  - first:
+      213: 984351471624807302
+    second: Bulbasaur_51
+  - first:
+      213: -1059386191016818042
+    second: Bulbasaur_52
+  - first:
+      213: 2645087696135430122
+    second: Bulbasaur_53
+  - first:
+      213: 6107400916824288805
+    second: Bulbasaur_54
+  - first:
+      213: -8744331557887163910
+    second: Bulbasaur_55
+  - first:
+      213: -65774465203454034
+    second: Bulbasaur_56
+  - first:
+      213: 949250036902698284
+    second: Bulbasaur_57
+  - first:
+      213: 3386945257129209228
+    second: Bulbasaur_58
+  - first:
+      213: 4404867243759622311
+    second: Bulbasaur_59
+  - first:
+      213: 1852328901872813588
+    second: Bulbasaur_60
+  - first:
+      213: 2274227912496341261
+    second: Bulbasaur_61
+  - first:
+      213: 3155519696084694889
+    second: Bulbasaur_62
+  - first:
+      213: 4963274326066616258
+    second: Bulbasaur_63
+  - first:
+      213: 2208471626519834208
+    second: Bulbasaur_64
+  - first:
+      213: -7673512837537128475
+    second: Bulbasaur_65
+  - first:
+      213: -6111624513124110449
+    second: Bulbasaur_66
+  - first:
+      213: 3301122760023709433
+    second: Bulbasaur_67
+  - first:
+      213: 8204669454285482058
+    second: Bulbasaur_68
+  - first:
+      213: 8128341118679246874
+    second: Bulbasaur_69
+  - first:
+      213: 4176060566835380188
+    second: Bulbasaur_70
+  - first:
+      213: -2496788503363248349
+    second: Bulbasaur_71
+  - first:
+      213: -6565177471976034767
+    second: Bulbasaur_72
+  - first:
+      213: 1685936665223124759
+    second: Bulbasaur_73
+  - first:
+      213: 5981434188926750389
+    second: Bulbasaur_74
+  - first:
+      213: 6606775653102828703
+    second: Bulbasaur_75
+  - first:
+      213: -1446317915315544047
+    second: Bulbasaur_76
+  - first:
+      213: 7195149927665007153
+    second: Bulbasaur_77
+  - first:
+      213: -2467609091054043675
+    second: Bulbasaur_78
+  - first:
+      213: 5932053452036541214
+    second: Bulbasaur_79
+  - first:
+      213: 3189777410592142173
+    second: Bulbasaur_80
+  - first:
+      213: -7886911873147130165
+    second: Bulbasaur_81
+  - first:
+      213: 1367464432743423500
+    second: Bulbasaur_82
+  - first:
+      213: -6393782534072851257
+    second: Bulbasaur_83
+  - first:
+      213: 7329761533748498244
+    second: Bulbasaur_84
+  - first:
+      213: -9199848648738801310
+    second: Bulbasaur_85
+  - first:
+      213: -7686538188894610014
+    second: Bulbasaur_86
+  - first:
+      213: 6147531318585869348
+    second: Bulbasaur_87
+  - first:
+      213: -1138900191691278378
+    second: Bulbasaur_88
+  - first:
+      213: -4286459347325605873
+    second: Bulbasaur_89
+  - first:
+      213: -2144113073866244469
+    second: Bulbasaur_90
+  - first:
+      213: -2566356610199339972
+    second: Bulbasaur_91
+  - first:
+      213: -2820965753481939174
+    second: Bulbasaur_92
+  - first:
+      213: 3362225181579172965
+    second: Bulbasaur_93
+  - first:
+      213: 4113000495579183681
+    second: Bulbasaur_94
+  - first:
+      213: -1575939117568414324
+    second: Bulbasaur_95
+  - first:
+      213: 2540176125218043430
+    second: Bulbasaur_96
+  - first:
+      213: 1559972571726312005
+    second: Bulbasaur_97
+  - first:
+      213: 4018313698188522165
+    second: Bulbasaur_98
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bulbasaur_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1440
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cfc14c624b649448561de87aaf7f9d
+      internalID: 4787346263594426768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1440
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fce36303ac678445bbec9068fdf0b21
+      internalID: -891796366352155390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1440
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018048e98cbdf64d9951b5b58c8c60f
+      internalID: -678092549506812834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1440
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1abfc715b16e2045a173c535bece4fc
+      internalID: -8847049717987542582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1440
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc37412e0f90bbf4f8f3a76e6491df29
+      internalID: -6997040532113702773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_5
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1440
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c450d0fe96b763149a4f6863055e5c12
+      internalID: 8895941586126025300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1440
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a728ad8f991545b122446628d2239
+      internalID: -4422410196696194995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1440
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27062c4d292394b43ac5b9ecc1618c99
+      internalID: 5038139264767690798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_8
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1440
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602959bebb135a045adc69c06c4db081
+      internalID: -480593047520023536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_9
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1440
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc569eecfb483324d995ac8598f47da1
+      internalID: 7416151671826004449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1282
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e80893bd13523b4780cdb871598787b
+      internalID: 2676986198339474730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1282
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57e4297a6eb25242a486c3ed29f2d55
+      internalID: -2157112961697414795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1280
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1d9fc46dd987b49938e1ceda8ce71f
+      internalID: 5355019424553724411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1280
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af5db7fbf21794fbd67ca389fd3b72
+      internalID: -2535038679533900083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1280
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bffd828f0dc854a939567ca33673e1
+      internalID: -4286707608388928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_15
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1280
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4634d230f7cd946af40a627ee3ac4a
+      internalID: -66516353851998713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1280
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda7918b37571654eaf773ad9e33d40e
+      internalID: -8718643348598118672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_17
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1280
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b82f9685d3fa18408fa0374c5857be8
+      internalID: 4585033246657928105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_18
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1280
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26c8d293f4265e4bbf13671f1855e4d
+      internalID: 6077559511023904353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_19
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1280
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7713cef34f77b439c781343d6125a8
+      internalID: -329109725538706522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1120
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85dbb7137e719d43b1d6b867cd04be4
+      internalID: -3326485947120196562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1120
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da685665b87af441a3c1c135c1b7c3e
+      internalID: 5582347493351168098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_22
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1122
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c9916dac1a19c48b618d2cf5305185
+      internalID: 6129489866661934303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_23
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1122
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb68e1c7d5b964b88c98698a00ba05
+      internalID: -1397060625363602511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1120
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0c425571e256245a8fa845f264e19f
+      internalID: 7718440071321485160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1120
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0079928233f72844851de039355c20e
+      internalID: -5089718751616282301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_26
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1120
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f7ae27386679243a447c55fbbcc708
+      internalID: -195563746169236212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_27
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1120
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28f06237a98fad4687d20c739c5ecb1
+      internalID: 8045259765780631433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_28
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1120
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9b69017535f534d852b89303324b36
+      internalID: -8896853959259463247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_29
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1120
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eded5febd2c4a6b48a9ca04a382f37e3
+      internalID: 5673029242394438758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 960
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f077e7b6e8b77f44a932b6bf567c4962
+      internalID: 990070286896948881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 960
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1990cfb03177c2498fda88520e98400
+      internalID: -5846452401064792705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_32
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 960
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead2554b8e80ba04cbd2051ab4389ee7
+      internalID: -2485590927633039310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_33
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 960
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d557151dc24325b4985955698a034f55
+      internalID: 5768847507841975404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_34
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 962
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeddaa305cf4d843bf7dce07099bfaa
+      internalID: 2072534884077986365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_35
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 962
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2768531a61148ed41938249da4c5c023
+      internalID: 2950309588250022436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_36
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 960
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e051ecab6e7eb40920aa501e44ce27
+      internalID: -4465120131690966745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_37
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 960
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a279b7a967040db46bfdb1260622f20a
+      internalID: -4296407077067918536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_38
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 960
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2292809aeae51f34a9c22c37de088d19
+      internalID: 7254585372975060563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_39
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 960
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217bbed4b26081543aeee7933fd9ba2f
+      internalID: -6626003407389286680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_40
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 800
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008694f85c6c55b40b94fac9067471de
+      internalID: -2429320076889838577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_41
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 800
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36a2f53ab3c4647acf1f6792d3a6fb
+      internalID: -7499554814471836973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_42
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 800
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76806be6c1fb8549b90c79a10f0fe88
+      internalID: 8252780539199483123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_43
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 800
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d313abd2238d26940a46baf63037444a
+      internalID: -6910408698013981549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_44
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 800
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e739579c668d844b33f473b0e2029c
+      internalID: 6271466497044975279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_45
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 800
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0013fb5ba4dd9749b2b64f8f9244608
+      internalID: 5664474215055661194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_46
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 802
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1852d742a683ed04c93b4be8361ebf2c
+      internalID: 4700239845482806726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_47
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 802
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89413af95bae53c40bad124ac392cec0
+      internalID: -8179132881356460679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_48
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 800
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2502fe8d3854d34c940e1db551c9038
+      internalID: -7492711018644364240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_49
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 800
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a2a29e5d8c7e240a409182ea77ed18
+      internalID: -146220220001691392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 640
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f053c36ff1a134e96e0043c93a4673
+      internalID: -6982874559567224212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_51
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 640
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b442d1e3f0e14ca571ac995403a1b
+      internalID: 984351471624807302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_52
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 640
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa94df5fc50f3047b09ac9fa8c086ae
+      internalID: -1059386191016818042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_53
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 640
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9271c1f007a84e9fedd41e1268e44
+      internalID: 2645087696135430122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_54
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 640
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a962ba192d772478c02b92581cfa6e
+      internalID: 6107400916824288805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_55
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 640
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932078c466d1ce94c8f134d288ddea3b
+      internalID: -8744331557887163910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_56
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 640
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bfcd4a6449db544acb10bdca41cdab
+      internalID: -65774465203454034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_57
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 640
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1089269a8d7814880155210cf4d7aa
+      internalID: 949250036902698284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_58
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 642
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea29f4d0a6810444a0b89113b9a3ad4
+      internalID: 3386945257129209228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_59
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 642
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3517df6b7a092584b954a774d3a8a727
+      internalID: 4404867243759622311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_60
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 480
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddcb43d3efd8514a9c80cbdd849b737
+      internalID: 1852328901872813588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_61
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 480
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1dbfa59b48e424bab036c82cc6808b
+      internalID: 2274227912496341261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_62
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 480
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564969248c0188542815d6565d89a042
+      internalID: 3155519696084694889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_63
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 480
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5d704933d136644b77a55b51502aa4
+      internalID: 4963274326066616258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_64
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 480
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bc95e5396abf84e9ad7706e97e73da
+      internalID: 2208471626519834208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_65
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 480
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdc0de50fcdc7042bcbc36910cac12d
+      internalID: -7673512837537128475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_66
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 480
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b0cd3ff4fae1a4f9abdacf2cb40ffe
+      internalID: -6111624513124110449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_67
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 480
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9650e9c4a8a6a47830947ffaf0143a
+      internalID: 3301122760023709433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_68
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 480
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81790f8528f009a44a1992807e2a7a80
+      internalID: 8204669454285482058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_69
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 480
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc4e0e920306d54a9c4153cde8fe0ea
+      internalID: 8128341118679246874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_70
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 322
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53724bffdf307f24a8fc50da1e22088a
+      internalID: 4176060566835380188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_71
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 322
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3fb5f9f584621438c477e4f5130323
+      internalID: -2496788503363248349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_72
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 320
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22decd302cfcd8d479e772e1d693f271
+      internalID: -6565177471976034767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_73
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 320
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a0676f76ae97b4bb4ad4c2f4bd7b98
+      internalID: 1685936665223124759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_74
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 320
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8b259959ae30f40b39dcc36e8eee3b
+      internalID: 5981434188926750389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_75
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 320
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc70304f3e6094999c75aeebdb89f1
+      internalID: 6606775653102828703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_76
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 320
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e80669d6b39d0447b91569e04a8405b
+      internalID: -1446317915315544047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_77
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 320
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdc1526140b34d43871ecf641fc16b4
+      internalID: 7195149927665007153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_78
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 320
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51999db701d33ef4f86cab0b11ad8060
+      internalID: -2467609091054043675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_79
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 320
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b0f17f3bb1b64ca0a292dafda4f66
+      internalID: 5932053452036541214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_80
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 160
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a1c228b8493747b65497441cbe39a
+      internalID: 3189777410592142173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_81
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 160
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e8288e5a4c2f94eabfe290c0fd6231
+      internalID: -7886911873147130165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_82
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 160
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32856ee25b2b844b22ff6ef8991afd
+      internalID: 1367464432743423500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_83
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 160
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd65cbda5d7aa7e4bb93a5850bd1fc69
+      internalID: -6393782534072851257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_84
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 160
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061811b10ebf404ba82e64e371fae5d
+      internalID: 7329761533748498244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_85
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 160
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6754392e43684cf48b41642177f3ef1f
+      internalID: -9199848648738801310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_86
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 162
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2a53f995d37e6409692f596bc00472
+      internalID: -7686538188894610014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_87
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 162
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6759b80fd82cd24da1714c2b7f7c12a
+      internalID: 6147531318585869348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_88
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 160
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2863c41bb2d4c5f44b2cc1c7295facae
+      internalID: -1138900191691278378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_89
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 160
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea379cb3cd1a85347a20160ed2527a3c
+      internalID: -4286459347325605873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_90
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0153210912e42a74784dc5245eea74e7
+      internalID: -2144113073866244469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_91
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c7831e7cd158448b77dc79898dc453
+      internalID: -2566356610199339972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_92
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e136c1fd16a773f48aa42c3c0c48f6df
+      internalID: -2820965753481939174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_93
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0291c472872b9a43bb256b9dea4ede7
+      internalID: 3362225181579172965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_94
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bdbd18cfe146c479f57fb4f2a67a42
+      internalID: 4113000495579183681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_95
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 0
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e6600a074963e4da6f00e5a2b80991
+      internalID: -1575939117568414324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_96
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4970b41bd22e64dbec7c86ff793505
+      internalID: 2540176125218043430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_97
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 0
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5ca4c3775b0b940af11015a4322ca3
+      internalID: 1559972571726312005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulbasaur_98
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 0
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56402700474341d48aec82d131571373
+      internalID: 4018313698188522165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
