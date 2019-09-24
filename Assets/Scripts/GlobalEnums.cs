@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class GlobalEnums : MonoBehaviour
 {
+    public enum MenuScreens
+    {
+        MainMenu,
+        Loading,
+        Multiplayer,
+        //StudentInfo,
+        Options,
+        Deck,
+        BattleTransition,
+    }
+
     public enum PokemonType
     {
         NORMAL,
@@ -59,6 +70,7 @@ public class GlobalEnums : MonoBehaviour
     {
         EnterBattle,
         Selection,
+        WaitingForAttack,
         Attack,
         GameOver
     }

@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Ivysaur
   m_EditorClassIdentifier: 
+  ID: 102
   name: IVYSAUR
   frontImage: {fileID: -669414873142750167, guid: e40b4568fb1abd04cb44b9b9cd2eb2af,
     type: 3}
   backImage: {fileID: -669414873142750167, guid: 16b82c3491d5bb8418b48bde68636748,
     type: 3}
+  cardImage: {fileID: 21300000, guid: 41bddc53c8ba2c74bb62e1f6887251a4, type: 3}
   type: 4
   rarity: 2
   HpStats:

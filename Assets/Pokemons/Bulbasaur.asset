@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
+  ID: 101
   name: BULBASAUR
   frontImage: {fileID: 4787346263594426768, guid: 2c19b1eda22c616448babb20453001a9,
     type: 3}
   backImage: {fileID: 4787346263594426768, guid: cd492fca49a170f4086e0c8d2018d452,
     type: 3}
+  cardImage: {fileID: 21300000, guid: 3ce365c7c9d2e4d4e93aecc983ad2420, type: 3}
   type: 4
   rarity: 2
   HpStats:

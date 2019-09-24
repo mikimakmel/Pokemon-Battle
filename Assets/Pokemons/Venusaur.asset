@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Venusaur
   m_EditorClassIdentifier: 
+  ID: 103
   name: VENUSAUR
   frontImage: {fileID: 5485963421013563980, guid: b41bcf52cd0e2d847b621b0368d6c2ad,
     type: 3}
   backImage: {fileID: 5485963421013563980, guid: 388f805e332b3a44baad436ebf0c3c29,
     type: 3}
+  cardImage: {fileID: 21300000, guid: eb52c6fb93b30f8419b14d46182b75bc, type: 3}
   type: 6
   rarity: 3
   HpStats:

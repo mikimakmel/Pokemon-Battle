@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d390bc9a3acb90c44adf6998eb5e3acc, type: 3}
   m_Name: Leaf Storm
   m_EditorClassIdentifier: 
+  ID: 6
   name: Leaf Storm
   maxPP: 5
   currPP: 5
   power: 130
   accuracy: 90
   type: 4
+  moveSound: {fileID: 0}

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d390bc9a3acb90c44adf6998eb5e3acc, type: 3}
   m_Name: Bite
   m_EditorClassIdentifier: 
+  ID: 1
   name: Bite
   maxPP: 25
   currPP: 25
   power: 60
   accuracy: 100
   type: 15
+  moveSound: {fileID: 0}

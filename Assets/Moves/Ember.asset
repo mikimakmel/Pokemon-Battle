@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d390bc9a3acb90c44adf6998eb5e3acc, type: 3}
   m_Name: Ember
   m_EditorClassIdentifier: 
+  ID: 3
   name: Ember
   maxPP: 25
   currPP: 25
   power: 40
   accuracy: 100
   type: 1
+  moveSound: {fileID: 0}

@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - GameScreens
-  - GameManager
   - Rectangles
+  - MovesSounds
+  - MenuScreens
+  - MenuObjects
   layers:
   - Default
   - TransparentFX

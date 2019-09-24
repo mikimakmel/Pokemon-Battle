@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d390bc9a3acb90c44adf6998eb5e3acc, type: 3}
   m_Name: Thunder
   m_EditorClassIdentifier: 
+  ID: 9
   name: Thunder
   maxPP: 10
   currPP: 10
   power: 110
   accuracy: 70
   type: 3
+  moveSound: {fileID: 0}

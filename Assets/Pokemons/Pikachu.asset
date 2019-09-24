@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
   m_Name: Pikachu
   m_EditorClassIdentifier: 
+  ID: 104
   name: PIKACHU
   frontImage: {fileID: 58068862916304467, guid: 339f241ee52df4c479ea0161fc82a364,
     type: 3}
   backImage: {fileID: 58068862916304467, guid: 1bfca37db5503ce4c97cb32d4390119f, type: 3}
+  cardImage: {fileID: 21300000, guid: 223314e6f8eeea444a25488599c6adde, type: 3}
   type: 3
   rarity: 3
   HpStats:
