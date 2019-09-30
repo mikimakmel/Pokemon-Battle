@@ -9,10 +9,8 @@ public class GlobalEnums : MonoBehaviour
         MainMenu,
         Loading,
         Multiplayer,
-        //StudentInfo,
         Options,
         Deck,
-        BattleTransition,
     }
 
     public enum PokemonType
@@ -71,7 +69,14 @@ public class GlobalEnums : MonoBehaviour
         EnterBattle,
         Selection,
         WaitingForAttack,
+        EnemyRanAway,
         Attack,
         GameOver
+    }
+
+    public enum Directions
+    {
+        Right,
+        Left
     }
 }

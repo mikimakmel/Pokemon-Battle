@@ -23,12 +23,12 @@ MonoBehaviour:
   rarity: 3
   HpStats:
     min: 0
-    curr: 44.969563
-    max: 70
-  attack: 65
-  defense: 70
-  speed: 30
-  level: 43
+    curr: 80
+    max: 80
+  attack: 82
+  defense: 83
+  speed: 80
+  level: 33
   canEvolve: 0
   levelToEvolve: 0
   evolveTo: {fileID: 0}

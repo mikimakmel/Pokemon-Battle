@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using MiniJSON;
 using AssemblyCSharp;
 using com.shephertz.app42.gaming.multiplayer.client;
 using com.shephertz.app42.gaming.multiplayer.client.events;
@@ -13,10 +10,10 @@ public class SC_BattleManager : MonoBehaviour
 {
     private int currentSelection;
     private int currentMove;
-    private string currentTurnID;
     public List<Sprite> battleBackgrounds;
     public Image Img_battleBG;
-    public Button button_play;
+    private const float startTime = 30f;
+    private float currentTime;
 
     // states
     private GlobalEnums.Turns currentTurn;
@@ -37,6 +34,8 @@ public class SC_BattleManager : MonoBehaviour
     public SC_GameLogic SC_GameLogic;
     public SC_MenuLogic SC_MenuLogic;
     public SC_DeckMenuLogic SC_DeckMenuLogic;
+    public SC_LoadingMenuLogic SC_LoadingMenuLogic;
+    public SC_ShakeScreen SC_ShakeScreen;
     private SC_BasePokemon foePokemon;
     private SC_BasePokemon playerPokemon;
     private SC_PokemonMove attackMove;
@@ -53,15 +52,19 @@ public class SC_BattleManager : MonoBehaviour
 
     [Header("Foe")]
     public Image Img_foePokemon;
+    private Animator foeAnimator;
     public Text Text_pokemonNameFoe;
     public Text Text_pokemonLvlFoe;
+    public Text FoeTimeLeft;
     public GameObject foeHealthBar;
 
     [Header("Player")]
     public Image Img_playerPokemon;
+    private Animator playerAnimator;
     public Text Text_pokemonNamePlayer;
     public Text Text_pokemonLvlPlayer;
     public Text Text_PlayerHP;
+    public Text PlayerTimeLeft;
     public GameObject playerHealthBar;
 
     [Header("Selection")]
@@ -92,6 +95,7 @@ public class SC_BattleManager : MonoBehaviour
     private string Move3Txt;
     private string Move4Txt;
 
+
     private void OnEnable()
     {
         Listener.OnGameStarted += OnGameStarted;
@@ -117,154 +121,7 @@ public class SC_BattleManager : MonoBehaviour
         ManageBattleFlow();
     }
 
-    private void ManageBattleFlow()
-    {
-        if (battleCamera.activeInHierarchy == false)
-            return;
-
-        if (isInBattle == false)
-        {
-            ChangeMenu(GlobalEnums.BattleMenus.Message);
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            clickSound.Play();
-
-            if (canExit == true)
-                BackToMainMenu();
-
-            if (battleState == GlobalEnums.BattleStates.GameOver && battleCamera.activeInHierarchy == true)
-            {
-                FinishBattle();
-                canExit = true;
-                return;
-            }
-            else isWaitingForRespond = false;
-
-            //if (MessageState == GlobalEnums.MessageBoxState.WaitingForAttack)
-            //{
-            //    MessageState = GlobalEnums.MessageBoxState.EnterBattle;
-            //}
-
-            if (MessageState == GlobalEnums.MessageBoxState.EnterBattle)
-            {
-                MessageState = GlobalEnums.MessageBoxState.Selection;
-                isSelectionMenuEnabled = true;
-                ChangeMenu(GlobalEnums.BattleMenus.Selection);
-                ManageMessageBox();
-                return;
-            }
-
-            if (MessageState == GlobalEnums.MessageBoxState.Attack && isMultiplayer == false)
-            {
-                if (currentTurn == GlobalEnums.Turns.PlayersTurn)
-                {
-                    currentTurn = GlobalEnums.Turns.FoesTurn;
-                }
-                else if (currentTurn == GlobalEnums.Turns.FoesTurn && isFoeAttackingATM != true)
-                {
-                    currentTurn = GlobalEnums.Turns.PlayersTurn;
-                    MessageState = GlobalEnums.MessageBoxState.Selection;
-                    ChangeMenu(GlobalEnums.BattleMenus.Selection);
-                    ManageMessageBox();
-                    isWaitingForRespond = false;
-                    isSelectionMenuEnabled = true;
-                    isMovesMenuEnabled = false;
-                }
-
-                return;
-            }
-            else if (MessageState == GlobalEnums.MessageBoxState.Attack && isMultiplayer == true)
-            {
-                if (currentTurn == GlobalEnums.Turns.FoesTurn && isFoeAttackingATM != true)
-                {
-                    currentTurn = GlobalEnums.Turns.PlayersTurn;
-                    MessageState = GlobalEnums.MessageBoxState.Selection;
-                    ChangeMenu(GlobalEnums.BattleMenus.Selection);
-                    ManageMessageBox();
-                    isWaitingForRespond = false;
-                    isSelectionMenuEnabled = true;
-                    isMovesMenuEnabled = false;
-                }
-                else
-                {
-                    MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
-                    ManageMessageBox();
-                }
-
-                return;
-            }
-        }
-
-        if (isWaitingForRespond == true)
-        {
-            ManageMessageBox(attackMove);
-        }
-        else
-        {
-            if (battleState == GlobalEnums.BattleStates.Start)
-            {
-                battleState = GlobalEnums.BattleStates.Battling;
-
-                if (isMultiplayer == true)
-                {
-                    if (currentTurn == GlobalEnums.Turns.PlayersTurn)
-                    {
-                        MessageState = GlobalEnums.MessageBoxState.Selection;
-                        isSelectionMenuEnabled = true;
-                        ChangeMenu(GlobalEnums.BattleMenus.Selection);
-                        ManageMessageBox();
-                    }
-                    else if (currentTurn == GlobalEnums.Turns.FoesTurn)
-                    {
-                        MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
-                        ManageMessageBox();
-                    }
-
-                    if (isInBattle == true && currentTurn == GlobalEnums.Turns.PlayersTurn && MessageState != GlobalEnums.MessageBoxState.Attack)
-                    {
-                        ManagePlayersTurn();
-                    }
-                }
-                else
-                {
-                    currentTurn = GetRandomTurn();
-
-                    if (currentTurn == GlobalEnums.Turns.FoesTurn)
-                    {
-                        AttackRandomly();
-                    }
-                    else
-                    {
-                        MessageState = GlobalEnums.MessageBoxState.Selection;
-                        ManageMessageBox();
-                    }
-                }
-            }
-
-            if (isInBattle == true && currentTurn == GlobalEnums.Turns.PlayersTurn && MessageState != GlobalEnums.MessageBoxState.Attack)
-            {
-                ManagePlayersTurn();
-            }
-            else if (isInBattle == true && currentTurn == GlobalEnums.Turns.FoesTurn)
-            {
-                isFoeAttackingATM = true;
-                isSelectionMenuEnabled = false;
-                isMovesMenuEnabled = false;
-                isWaitingForRespond = true;
-
-                if (isMultiplayer == false)
-                    AttackRandomly();
-                else
-                {
-                    MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
-                    ManageMessageBox();
-                }
-            }
-        }
-    }
+    #region init
 
     private void initText()
     {
@@ -274,31 +131,16 @@ public class SC_BattleManager : MonoBehaviour
         Move2Txt = Move2.text;
         Move3Txt = Move3.text;
         Move4Txt = Move4.text;
+        PlayerTimeLeft.enabled = false;
+        FoeTimeLeft.enabled = false;
     }
 
-    private void ManagePlayersTurn()
+    public void initBattle()
     {
-        if (currentMenu == GlobalEnums.BattleMenus.Selection && isSelectionMenuEnabled == true)
-        {
-            isMovesMenuEnabled = false;
-            HandleSelectionMenu();
-        }
-        else if (currentMenu == GlobalEnums.BattleMenus.Moves && isMovesMenuEnabled == true)
-        {
-            isSelectionMenuEnabled = false;
-            HandleMovesMenu();
-        }
-    }
-
-    public Sprite getRandomBackground(int _index = 000)
-    {
-        if (_index == 000)
-        {
-            int _randomIndex = UnityEngine.Random.Range(0, battleBackgrounds.Count);
-            return battleBackgrounds[_randomIndex];
-        }
-        else
-            return battleBackgrounds[_index];
+        Img_battleBG.sprite = getRandomBackground();
+        RestartBattle();
+        initPlayer();
+        initFoe();
     }
 
     private void RestartBattle()
@@ -317,14 +159,6 @@ public class SC_BattleManager : MonoBehaviour
         attackMove = null;
     }
 
-    public void initBattle()
-    {
-        Img_battleBG.sprite = getRandomBackground();
-        RestartBattle();
-        initPlayer();
-        initFoe();
-    }
-
     private void initMultiplayerBattle()
     {
         initBattle();
@@ -335,6 +169,8 @@ public class SC_BattleManager : MonoBehaviour
             _pokemonID = SC_GameLogic.getRandomPokemonFromList(SC_GameLogic.allPokemons).ID;
         else
             _pokemonID = SC_GameLogic.allPokemons[SC_DeckMenuLogic.currentCardIndex].ID;
+
+        currentTime = startTime;
 
         initPlayer(_pokemonID, SC_DeckMenuLogic.currentSliderValue);
         _toSend.Add("firstPokemonID", _pokemonID);
@@ -354,9 +190,10 @@ public class SC_BattleManager : MonoBehaviour
             foePokemon = SC_GameLogic.getPokemonByID(_pokemonID);
 
         Img_foePokemon.sprite = foePokemon.frontImage;
+        foeAnimator = Img_foePokemon.GetComponent<Animator>();
         Text_pokemonNameFoe.text = foePokemon.name;
 
-        
+
         if (_pokemonLvl == 000)
             Text_pokemonLvlFoe.text = "Lv" + foePokemon.level.ToString();
         else
@@ -380,6 +217,7 @@ public class SC_BattleManager : MonoBehaviour
             playerPokemon = SC_GameLogic.getPokemonByID(_pokemonID);
 
         Img_playerPokemon.sprite = playerPokemon.backImage;
+        playerAnimator = Img_playerPokemon.GetComponent<Animator>();
         Text_pokemonNamePlayer.text = playerPokemon.name;
 
         if (_pokemonLvl == 000)
@@ -402,47 +240,27 @@ public class SC_BattleManager : MonoBehaviour
         }
     }
 
-    private void ManageMessageBox(SC_PokemonMove _move = null)
+    public Sprite getRandomBackground(int _index = 000)
     {
-        if (MessageState == GlobalEnums.MessageBoxState.EnterBattle)
+        if (_index == 000)
         {
-            ChangeMenu(GlobalEnums.BattleMenus.Message);
-            MessageText.text = foePokemon.name + "  Wants  To  Battle!";
+            int _randomIndex = UnityEngine.Random.Range(0, battleBackgrounds.Count);
+            return battleBackgrounds[_randomIndex];
         }
-        else if (MessageState == GlobalEnums.MessageBoxState.Selection)
-        {
-            ChangeMenu(GlobalEnums.BattleMenus.Selection);
-            MessageText.text = "What  Will  " + playerPokemon.name + "  Do?";
-        }
-        else if (MessageState == GlobalEnums.MessageBoxState.WaitingForAttack)
-        {
-            ChangeMenu(GlobalEnums.BattleMenus.Message);
-            //isWaitingForRespond = true;
-            MessageText.text = "Enemy  Pokemon  Is  Attacking.";
-        }
-        else if (MessageState == GlobalEnums.MessageBoxState.Attack)
-        {
-            ChangeMenu(GlobalEnums.BattleMenus.Message);
-            isWaitingForRespond = true;
-
-            if (_move != null)
-            {
-                if (currentTurn == GlobalEnums.Turns.PlayersTurn)
-                    MessageText.text = playerPokemon.name + "  Used  " + _move.name + "!";
-                else if (currentTurn == GlobalEnums.Turns.FoesTurn)
-                    MessageText.text = "Oh No! \nEnemy  " + foePokemon.name + "  Used  " + _move.name + "!";
-            }          
-        }
-        else if (MessageState == GlobalEnums.MessageBoxState.GameOver)
-        {
-            ChangeMenu(GlobalEnums.BattleMenus.Message);
-
-            if (playerPokemon.HpStats.curr <= 0)
-                MessageText.text = playerPokemon.name + "  Defeated!  \nMaybe  Next  Time...";
-            else if (foePokemon.HpStats.curr <= 0)    
-                MessageText.text = "Enemy  " + foePokemon.name + "  Defeated! \nGood  Job!";
-        }
+        else
+            return battleBackgrounds[_index];
     }
+
+    private GlobalEnums.Turns GetRandomTurn()
+    {
+        int randomNum = UnityEngine.Random.Range(0, 2);
+        GlobalEnums.Turns randTurn = (GlobalEnums.Turns)randomNum;
+        return randTurn;
+    }
+
+    #endregion
+
+    #region menu
 
     private void UpdateSelectionMenu()
     {
@@ -458,13 +276,6 @@ public class SC_BattleManager : MonoBehaviour
                 Run.text = "> " + RunTxt;
                 break;
         }
-    }
-
-    private GlobalEnums.Turns GetRandomTurn()
-    {
-        int randomNum = UnityEngine.Random.Range(0, 2);
-        GlobalEnums.Turns randTurn = (GlobalEnums.Turns)randomNum;
-        return randTurn;
     }
 
     private void UpdateMoveDetailBox(SC_PokemonMove move)
@@ -538,28 +349,16 @@ public class SC_BattleManager : MonoBehaviour
                 }
                 else if (currentSelection == 2)
                 {
+                    if (isMultiplayer)
+                        RunFromMultiplayerBattle();
                     isInBattle = false;
-                    BackToMainMenu();
+                    StartCoroutine(BackToMainMenu());
                     runSound.Play();
                 }
             }
 
             UpdateSelectionMenu();
         }
-    }
-
-    private void BackToMainMenu()
-    {
-        SC_GameLogic.battleMusic.Stop();
-        victoryMusic.Stop();
-        losingMusic.Stop();
-        menuCamera.SetActive(true);
-        battleCamera.SetActive(false);
-        SC_MenuLogic.isMenuEnabled = true;
-        SC_MenuLogic.menuMusic.Play();
-        SC_MenuLogic.enabled = true;
-        button_play.interactable = true;
-        SC_MenuLogic.isMenuEnabled = true;
     }
 
     private void HandleMovesMenu()
@@ -619,91 +418,96 @@ public class SC_BattleManager : MonoBehaviour
         }
     }
 
-    private void FinishBattle()
+    private void ManageMessageBox(SC_PokemonMove _move = null)
     {
-        SC_GameLogic.battleMusic.Stop();
-        attackMove.moveSound.Stop();
-
-        if (currentTurn == GlobalEnums.Turns.PlayersTurn)
-            victoryMusic.Play();
-        else if (currentTurn == GlobalEnums.Turns.FoesTurn)
-            losingMusic.Play();
-
-        isInBattle = false;
-        isWaitingForRespond = true;
-        MessageState = GlobalEnums.MessageBoxState.GameOver;
-        battleState = GlobalEnums.BattleStates.GameOver;
-        ManageMessageBox();
-    }
-
-    private void AttackRandomly()
-    {
-        int randomIndex = UnityEngine.Random.Range(0, 4);
-        AttackOpponent(foePokemon, foePokemon.moves[randomIndex], playerPokemon);
-        isFoeAttackingATM = false;
-    }
-
-    private void AttackOpponent(SC_BasePokemon _attackPokemon, SC_PokemonMove _attackMove, SC_BasePokemon _defensePokemon)
-    {
-        if (canExit != true)
-            _attackMove.moveSound.Play();
-        currentMenu = GlobalEnums.BattleMenus.Message;
-        MessageState = GlobalEnums.MessageBoxState.Attack;
-        attackMove = _attackMove;
-        ManageMessageBox(attackMove);
-        isWaitingForRespond = true;
-
-        _attackMove.currPP--;
-
-        float _lvl = (float)_attackPokemon.level;
-        float _power = (float)attackMove.power;
-        float _A = (float)_attackPokemon.attack;
-        float _D = (float)_defensePokemon.defense;
-        float _modifier = (float)(UnityEngine.Random.Range(0.8f, 1f));
-        float _damage = (((((((2f * _lvl) / 5f) + 2f) * _power) * (_A / _D)) + 2f) / 50f) * _modifier;
-        //float damage = (((((((2f * lvl) / 5f) + 2f) * power) * (A/D)) / 50f) + 2f) * modifier;
-        //Debug.Log("damage: " + damage);
-
-        if (currentTurn == GlobalEnums.Turns.PlayersTurn)
-            StartCoroutine(FlashAfterAttack(Img_foePokemon, 4, 0.1f));
-        else if (currentTurn == GlobalEnums.Turns.FoesTurn)
-            StartCoroutine(FlashAfterAttack(Img_playerPokemon, 4, 0.1f));
-
-        if (_defensePokemon.HpStats.curr - _damage < 1)
+        if (MessageState == GlobalEnums.MessageBoxState.EnterBattle)
         {
-            _defensePokemon.HpStats.curr = 0;
-            _defensePokemon.healthBar.SetHealthBarScale(0);
-            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
-            battleState = GlobalEnums.BattleStates.GameOver;
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+            MessageText.text = foePokemon.name + "  Wants  To  Battle!";
         }
-        else
+        else if (MessageState == GlobalEnums.MessageBoxState.Selection)
         {
-            float newHP = (_defensePokemon.HpStats.curr - _damage) / _defensePokemon.HpStats.max;
-            _defensePokemon.HpStats.curr -= _damage;
-            _defensePokemon.healthBar.SetHealthBarScale(newHP);
-            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
+            ChangeMenu(GlobalEnums.BattleMenus.Selection);
+            MessageText.text = "What  Will  " + playerPokemon.name + "  Do?";
+        }
+        else if (MessageState == GlobalEnums.MessageBoxState.WaitingForAttack)
+        {
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+            MessageText.text = "Enemy  Pokemon  Is  Attacking.";
+        }
+        else if (MessageState == GlobalEnums.MessageBoxState.EnemyRanAway)
+        {
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+            MessageText.text = "Enemy  " + foePokemon.name + "  Ran  Away...  \nYou  Win!";
+            isWaitingForRespond = true;
+        }
+        else if (MessageState == GlobalEnums.MessageBoxState.Attack)
+        {
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+            isWaitingForRespond = true;
+
+            if (_move != null)
+            {
+                if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+                    MessageText.text = playerPokemon.name + "  Used  " + _move.name + "!";
+                else if (currentTurn == GlobalEnums.Turns.FoesTurn)
+                    MessageText.text = "Oh No! \nEnemy  " + foePokemon.name + "  Used  " + _move.name + "!";
+            }
+        }
+        else if (MessageState == GlobalEnums.MessageBoxState.GameOver)
+        {
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+
+            if (playerPokemon.HpStats.curr <= 0)
+                MessageText.text = playerPokemon.name + "  Defeated!  \nMaybe  Next  Time...";
+            else if (foePokemon.HpStats.curr <= 0)
+                MessageText.text = "Enemy  " + foePokemon.name + "  Defeated! \nGood  Job!";
         }
     }
 
-    private IEnumerator FlashAfterAttack(Image pokemon, int numOfTimes, float delay)
+    private void ManagePlayersTurn()
     {
-        yield return new WaitForSeconds(delay);
-        for (int i = 0; i < numOfTimes; i++)
+        if (currentMenu == GlobalEnums.BattleMenus.Selection && isSelectionMenuEnabled == true)
         {
-            pokemon.color = new Color(pokemon.color.r, pokemon.color.g, pokemon.color.b, 0.1f);
-            yield return new WaitForSeconds(delay);
-            pokemon.color = new Color(pokemon.color.r, pokemon.color.g, pokemon.color.b, 1);
-            yield return new WaitForSeconds(delay);
+            isMovesMenuEnabled = false;
+            HandleSelectionMenu();
+        }
+        else if (currentMenu == GlobalEnums.BattleMenus.Moves && isMovesMenuEnabled == true)
+        {
+            isSelectionMenuEnabled = false;
+            HandleMovesMenu();
         }
     }
 
-    //private IEnumerator AIdelay(float delay)
-    //{
-    //    yield return new WaitForSeconds(delay);
-    //    AttackRandomly();
-    //    yield return new WaitForSeconds(delay);
-    //    isFoeAttackingATM = false;
-    //}
+    private void manageTimeLeft()
+    {
+        if (isMultiplayer)
+        {
+            currentTime -= 1 * Time.deltaTime;
+            if (currentTime <= 0)
+                currentTime = 0;
+
+            PlayerTimeLeft.text = currentTime.ToString("0");
+            FoeTimeLeft.text = currentTime.ToString("0");
+        }
+    }
+
+    private void managePlayersClock(MoveEvent _Move)
+    {
+        if (isMultiplayer)
+        {
+            if (PlayerTimeLeft.enabled == true)
+            {
+                FoeTimeLeft.enabled = true;
+                PlayerTimeLeft.enabled = false;
+            }
+            else if (FoeTimeLeft.enabled == true)
+            {
+                PlayerTimeLeft.enabled = true;
+                FoeTimeLeft.enabled = false;
+            }
+        }
+    }
 
     public void ChangeMenu(GlobalEnums.BattleMenus menu)
     {
@@ -737,11 +541,276 @@ public class SC_BattleManager : MonoBehaviour
         currentMenu = menu;
     }
 
+    private IEnumerator BackToMainMenu()
+    {
+        SC_GameLogic.battleMusic.Stop();
+        victoryMusic.Stop();
+        losingMusic.Stop();
+        menuCamera.SetActive(true);
+        battleCamera.SetActive(false);
+        SC_MenuLogic.ChangeScreen(GlobalEnums.MenuScreens.MainMenu);
+        SC_MenuLogic.menuMusic.Play();
+        yield return new WaitForSeconds(0.5f);
+        SC_MenuLogic.isMenuEnabled = true;
+        SC_MenuLogic.enabled = true;
+        WarpClient.GetInstance().stopGame();
+    }
+
+    #endregion
+
+    #region logic
+
+    private void ManageBattleFlow()
+    {
+        if (battleCamera.activeInHierarchy == false)
+            return;
+
+        if (isInBattle == false)
+        {
+            ChangeMenu(GlobalEnums.BattleMenus.Message);
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            clickSound.Play();
+
+            if (canExit == true)
+                StartCoroutine(BackToMainMenu());
+
+            if ((battleState == GlobalEnums.BattleStates.GameOver && battleCamera.activeInHierarchy == true) || (MessageState == GlobalEnums.MessageBoxState.EnemyRanAway))
+            {
+                FinishBattle();
+                canExit = true;
+                return;
+            }
+            else isWaitingForRespond = false;
+
+            if (MessageState == GlobalEnums.MessageBoxState.EnterBattle && currentTurn == GlobalEnums.Turns.PlayersTurn)
+            {
+                MessageState = GlobalEnums.MessageBoxState.Selection;
+                isSelectionMenuEnabled = true;
+                ChangeMenu(GlobalEnums.BattleMenus.Selection);
+                ManageMessageBox();
+                return;
+            }
+
+            if (MessageState == GlobalEnums.MessageBoxState.Attack && isMultiplayer == false)
+            {
+                if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+                {
+                    currentTurn = GlobalEnums.Turns.FoesTurn;
+                }
+                else if (currentTurn == GlobalEnums.Turns.FoesTurn && isFoeAttackingATM != true)
+                {
+                    currentTurn = GlobalEnums.Turns.PlayersTurn;
+                    MessageState = GlobalEnums.MessageBoxState.Selection;
+                    ChangeMenu(GlobalEnums.BattleMenus.Selection);
+                    ManageMessageBox();
+                    isWaitingForRespond = false;
+                    isSelectionMenuEnabled = true;
+                    isMovesMenuEnabled = false;
+                }
+
+                return;
+            }
+            else if (MessageState == GlobalEnums.MessageBoxState.Attack && isMultiplayer == true)
+            {
+                if (currentTurn == GlobalEnums.Turns.FoesTurn && isFoeAttackingATM != true)
+                {
+                    currentTurn = GlobalEnums.Turns.PlayersTurn;
+                    MessageState = GlobalEnums.MessageBoxState.Selection;
+                    ChangeMenu(GlobalEnums.BattleMenus.Selection);
+                    ManageMessageBox();
+                    isWaitingForRespond = false;
+                    isSelectionMenuEnabled = true;
+                    isMovesMenuEnabled = false;
+                }
+                else
+                {
+                    MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
+                    ManageMessageBox();
+                }
+
+                return;
+            }
+        }
+
+        if (isWaitingForRespond == true)
+        {
+            ManageMessageBox(attackMove);
+        }
+        else
+        {
+            handleStartOfBattle();
+
+            if (isInBattle == true && currentTurn == GlobalEnums.Turns.PlayersTurn && MessageState != GlobalEnums.MessageBoxState.Attack)
+            {
+                ManagePlayersTurn();
+            }
+            else if (isInBattle == true && currentTurn == GlobalEnums.Turns.FoesTurn)
+            {
+                isFoeAttackingATM = true;
+                isSelectionMenuEnabled = false;
+                isMovesMenuEnabled = false;
+                isWaitingForRespond = true;
+
+                if (isMultiplayer == false)
+                    AttackRandomly();
+                else
+                {
+                    MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
+                    ManageMessageBox();
+                }
+            }
+        }
+
+        manageTimeLeft();
+    }
+
+    private void handleStartOfBattle()
+    {
+        if (battleState == GlobalEnums.BattleStates.Start)
+        {
+            battleState = GlobalEnums.BattleStates.Battling;
+
+            if (isMultiplayer == true)
+            {
+                if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+                {
+                    MessageState = GlobalEnums.MessageBoxState.Selection;
+                    isSelectionMenuEnabled = true;
+                    ChangeMenu(GlobalEnums.BattleMenus.Selection);
+                    ManageMessageBox();
+                }
+                else if (currentTurn == GlobalEnums.Turns.FoesTurn)
+                {
+                    MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
+                    ManageMessageBox();
+                }
+
+                if (isInBattle == true && currentTurn == GlobalEnums.Turns.PlayersTurn && MessageState != GlobalEnums.MessageBoxState.Attack)
+                {
+                    ManagePlayersTurn();
+                }
+            }
+            else
+            {
+                currentTurn = GetRandomTurn();
+
+                if (currentTurn == GlobalEnums.Turns.FoesTurn)
+                {
+                    AttackRandomly();
+                }
+                else
+                {
+                    MessageState = GlobalEnums.MessageBoxState.Selection;
+                    ManageMessageBox();
+                }
+            }
+        }
+    }
+
+    private void RunFromMultiplayerBattle()
+    {
+        Dictionary<string, object> _toSend = new Dictionary<string, object>();
+        _toSend.Add("runFromBattle", true);
+        string _send = MiniJSON.Json.Serialize(_toSend);
+        WarpClient.GetInstance().sendMove(_send);
+    }
+
+    private void FinishBattle()
+    {
+        SC_GameLogic.battleMusic.Stop();
+        if (attackMove != null)
+            attackMove.moveSound.Stop();
+
+        if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+            victoryMusic.Play();
+        else if (currentTurn == GlobalEnums.Turns.FoesTurn)
+            losingMusic.Play();
+
+        FoeTimeLeft.enabled = false;
+        PlayerTimeLeft.enabled = false;
+        isInBattle = false;
+        isWaitingForRespond = true;
+        MessageState = GlobalEnums.MessageBoxState.GameOver;
+        battleState = GlobalEnums.BattleStates.GameOver;
+        ManageMessageBox();
+    }
+
+    private void AttackRandomly()
+    {
+        int randomIndex = UnityEngine.Random.Range(0, 4);
+        AttackOpponent(foePokemon, foePokemon.moves[randomIndex], playerPokemon);
+        isFoeAttackingATM = false;
+    }
+
+    private void AttackOpponent(SC_BasePokemon _attackPokemon, SC_PokemonMove _attackMove, SC_BasePokemon _defensePokemon)
+    {
+        if (canExit != true)
+            _attackMove.moveSound.Play();
+        currentMenu = GlobalEnums.BattleMenus.Message;
+        MessageState = GlobalEnums.MessageBoxState.Attack;
+        attackMove = _attackMove;
+        ManageMessageBox(attackMove);
+        isWaitingForRespond = true;
+
+        _attackMove.currPP--;
+
+        float _lvl = (float)_attackPokemon.level;
+        float _power = (float)attackMove.power;
+        float _A = (float)_attackPokemon.attack;
+        float _D = (float)_defensePokemon.defense;
+        float _damage = (((((((2f * _lvl) / 5f) + 2f) * _power) * (_A / _D)) + 2f) / 50f);
+
+        if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+        {
+            playerAnimator.SetTrigger("Attack");
+            StartCoroutine(FlashAfterAttack(Img_foePokemon, 4, 0.1f));
+        }
+        else if (currentTurn == GlobalEnums.Turns.FoesTurn)
+        {
+            foeAnimator.SetTrigger("Attack");
+            StartCoroutine(FlashAfterAttack(Img_playerPokemon, 4, 0.1f));
+            StartCoroutine(SC_ShakeScreen.ShakeIt());
+        }
+
+        if (_defensePokemon.HpStats.curr - _damage < 1)
+        {
+            PlayerTimeLeft.enabled = false;
+            FoeTimeLeft.enabled = false;
+            _defensePokemon.HpStats.curr = 0;
+            _defensePokemon.healthBar.SetHealthBarScale(0);
+            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
+            battleState = GlobalEnums.BattleStates.GameOver;
+        }
+        else
+        {
+            float newHP = (_defensePokemon.HpStats.curr - _damage) / _defensePokemon.HpStats.max;
+            _defensePokemon.HpStats.curr -= _damage;
+            _defensePokemon.healthBar.SetHealthBarScale(newHP);
+            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
+        }
+    }
+
+    private IEnumerator FlashAfterAttack(Image pokemon, int numOfTimes, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        for (int i = 0; i < numOfTimes; i++)
+        {
+            pokemon.color = new Color(pokemon.color.r, pokemon.color.g, pokemon.color.b, 0.1f);
+            yield return new WaitForSeconds(delay);
+            pokemon.color = new Color(pokemon.color.r, pokemon.color.g, pokemon.color.b, 1);
+            yield return new WaitForSeconds(delay);
+        }
+    }
+
+    #endregion
+
     #region Events
     private void OnGameStarted(string _Sender, string _RoomId, string _NextTurn)
     {
-        currentTurnID = _NextTurn;
-
         if (SC_MenuLogic.Instance.userId == _NextTurn)
         {
             currentTurn = GlobalEnums.Turns.PlayersTurn;
@@ -756,6 +825,9 @@ public class SC_BattleManager : MonoBehaviour
     private void OnMoveCompleted(MoveEvent _Move)
     {
         Dictionary<string, object> _data = (Dictionary<string, object>)MiniJSON.Json.Deserialize(_Move.getMoveData());
+        currentTime = startTime;
+
+        managePlayersClock(_Move);
 
         if (_data != null && _data.ContainsKey("firstPokemonID") && _data.ContainsKey("battleBackgroundIndex") && _Move.getSender() != SC_MenuLogic.Instance.userId)
         {
@@ -772,7 +844,6 @@ public class SC_BattleManager : MonoBehaviour
             Dictionary<string, object> _toSend = new Dictionary<string, object>();
             _toSend.Add("secondPokemonID", playerPokemon.ID);
             string _send = MiniJSON.Json.Serialize(_toSend);
-            Debug.Log("First: " + foePokemon.name);
             WarpClient.GetInstance().sendMove(_send);
         }
         else if (_data != null && _data.ContainsKey("secondPokemonID") && _Move.getSender() != SC_MenuLogic.Instance.userId)
@@ -782,15 +853,24 @@ public class SC_BattleManager : MonoBehaviour
             Dictionary<string, object> _toSend = new Dictionary<string, object>();
             _toSend.Add("startBattle", true);
             string _send = MiniJSON.Json.Serialize(_toSend);
-            Debug.Log("Second: " + foePokemon.name);
             WarpClient.GetInstance().sendMove(_send);
         }
         else if (_data != null && _data.ContainsKey("startBattle"))
-        {
+        { 
             SC_GameLogic.EnterBattle(true);
             isInBattle = true;
             isMultiplayer = true;
-            Debug.Log("start: " + playerPokemon.name);
+
+            if (_Move.getSender() != SC_MenuLogic.Instance.userId)
+            {
+                PlayerTimeLeft.enabled = true;
+                FoeTimeLeft.enabled = false;
+            }
+            else if (_Move.getSender() == SC_MenuLogic.Instance.userId)
+            {
+                FoeTimeLeft.enabled = true;
+                PlayerTimeLeft.enabled = false;
+            }
         }
 
         if (_data != null && _data.ContainsKey("attackMoveID") && _Move.getSender() != SC_MenuLogic.Instance.userId)
@@ -810,6 +890,40 @@ public class SC_BattleManager : MonoBehaviour
             return;
         }
 
+        handleRunnigFromBattle(_Move, _data);
+        handleLostOfTime(_Move, _data);
+
+        switchTurns(_Move);
+    }
+
+    private void handleRunnigFromBattle(MoveEvent _Move, Dictionary<string, object> _data)
+    {
+        if (_data != null && _data.ContainsKey("runFromBattle") && _Move.getSender() != SC_MenuLogic.Instance.userId)
+        {
+            MessageState = GlobalEnums.MessageBoxState.EnemyRanAway;
+            ManageMessageBox();
+        }
+    }
+
+    private void handleLostOfTime(MoveEvent _Move, Dictionary<string, object> _data)
+    {
+        if (_data == null && _Move.getSender() != SC_MenuLogic.Instance.userId)
+        {
+            MessageState = GlobalEnums.MessageBoxState.Selection;
+            isSelectionMenuEnabled = true;
+            isWaitingForRespond = false;
+            ManageMessageBox();
+            ManagePlayersTurn();
+        }
+        else if (_data == null && _Move.getSender() == SC_MenuLogic.Instance.userId)
+        {
+            MessageState = GlobalEnums.MessageBoxState.WaitingForAttack;
+            ManageMessageBox();
+        }
+    }
+
+    private void switchTurns(MoveEvent _Move)
+    {
         if (_Move.getNextTurn() == SC_MenuLogic.Instance.userId)
             currentTurn = GlobalEnums.Turns.PlayersTurn;
         else
@@ -818,7 +932,10 @@ public class SC_BattleManager : MonoBehaviour
 
     private void OnGameStopped(string _Sender, string _RoomId)
     {
-        Debug.Log("Game Over");
+        Debug.Log("Game Stopped");
+        WarpClient.GetInstance().LeaveRoom(_RoomId);
+        SC_LoadingMenuLogic.canUserCancel = true;
     }
     #endregion
+
 }

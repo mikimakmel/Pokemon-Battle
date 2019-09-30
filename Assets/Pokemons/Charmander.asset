@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  ID: 105
+  name: CHARMANDER
+  frontImage: {fileID: -7068587632436528966, guid: 8fe63c915d62a164abb6747b91b92e29,
+    type: 3}
+  backImage: {fileID: -7068587632436528966, guid: bb32e0ec92806334bb75b39a8a84d341,
+    type: 3}
+  cardImage: {fileID: 21300000, guid: 56ab197599d1d614dbade45b1ce31868, type: 3}
+  type: 1
+  rarity: 2
+  HpStats:
+    min: 0
+    curr: 70
+    max: 70
+  attack: 68
+  defense: 72
+  speed: 65
+  level: 33
+  canEvolve: 1
+  levelToEvolve: 16
+  evolveTo: {fileID: 11400000, guid: 3a77225fda03b314b927b2462e691056, type: 2}
+  moves:
+  - {fileID: 11400000, guid: 32d1d126aff015740ae894374941dcec, type: 2}
+  - {fileID: 11400000, guid: baec9bea8da4f334bae222c438171e7a, type: 2}
+  - {fileID: 11400000, guid: 9cb5351870c3d084d976810e86206cc2, type: 2}
+  - {fileID: 11400000, guid: 1988338712e211c408421869aeee5bb1, type: 2}
+  healthBar: {fileID: 0}

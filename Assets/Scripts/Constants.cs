@@ -4,8 +4,8 @@ using UnityEngine;
 
 static class Constants
 {
-    public const string apiKey = "86ae4bb80c68fe4b3b172a1ae8fc4018d552ae44280659e94d37de905accfe0e";
-    public const string secretKey = "2fc99fd915cdddf3bba33317297223f3c9327c20d9be93786ff12a70770187bd";
+    public const string apiKey = "7638c74f8f7cfbbe061fca540834e40e403e81026e9af2b7aacd0d2a88dcbe12";
+    public const string secretKey = "d609511a6172417cdd972310f489d0229db30b7bb859bc069d6f690f16ba74a4";
 
     public const string HEALTH_BAR_COLOR_GREEN = "58DD8A";
     public const string HEALTH_BAR_COLOR_ORANGE = "FDE835";

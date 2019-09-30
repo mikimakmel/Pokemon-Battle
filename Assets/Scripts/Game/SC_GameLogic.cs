@@ -10,15 +10,14 @@ public class SC_GameLogic : MonoBehaviour
     public GameObject menuCamera;
     public GameObject battleCamera;
     public SC_BattleManager SC_BattleManager;
+    public SC_MenuLogic SC_MenuLogic;
     public AudioSource battleMusic;
-    private Button Button_play;
     private Dictionary<string, GameObject> rectangles;
     private Dictionary<string, GameObject> movesSounds;
 
     private void Awake()
     {
         battleMusic = battleMusic.GetComponent<AudioSource>();
-        Button_play = GameObject.Find("Button_Play").GetComponent<Button>();
         InitRectangles();
         InitMovesSounds();
         battleCamera.SetActive(false);
@@ -58,7 +57,6 @@ public class SC_GameLogic : MonoBehaviour
 
     public void EnterBattle(bool _isMultiplayer = false)
     {
-        Button_play.interactable = false;
         battleMusic.Play();
         StartCoroutine(BattleTransition(0.1f));
         if (_isMultiplayer == false)
@@ -86,19 +84,6 @@ public class SC_GameLogic : MonoBehaviour
                 rectangles["Rec_" + i].SetActive(false);
         }
     }
-
-    //public List<SC_BasePokemon> GetPokemonByRarity(GlobalEnums.Rarity rarity)
-    //{
-    //    List<SC_BasePokemon> pokemonsList = new List<SC_BasePokemon>();
-
-    //    foreach(SC_BasePokemon pokemon in allPokemons)
-    //    {
-    //        if (pokemon.rarity == rarity)
-    //            pokemonsList.Add(pokemon);
-    //    }
-
-    //    return pokemonsList;
-    //}
 
     public SC_BasePokemon getRandomPokemonFromList(List<SC_BasePokemon> _pokemonsList)
     {

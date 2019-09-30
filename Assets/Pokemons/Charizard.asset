@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
+  m_Name: Charizard
+  m_EditorClassIdentifier: 
+  ID: 107
+  name: CHARIZARD
+  frontImage: {fileID: -2175814085841678711, guid: 8c34c4d2ab8412b45a0d1e8cf61a2bde,
+    type: 3}
+  backImage: {fileID: -2175814085841678711, guid: 83b7e151a38d7a54eadfc1b09ecdfabc,
+    type: 3}
+  cardImage: {fileID: 21300000, guid: 623a58a59794b034ba3a8b19bc78101f, type: 3}
+  type: 1
+  rarity: 2
+  HpStats:
+    min: 0
+    curr: 78
+    max: 78
+  attack: 84
+  defense: 78
+  speed: 100
+  level: 36
+  canEvolve: 0
+  levelToEvolve: 0
+  evolveTo: {fileID: 0}
+  moves:
+  - {fileID: 11400000, guid: a984c89d260e4e34d8fea99df7db1291, type: 2}
+  - {fileID: 11400000, guid: 1988338712e211c408421869aeee5bb1, type: 2}
+  - {fileID: 11400000, guid: 32d1d126aff015740ae894374941dcec, type: 2}
+  - {fileID: 11400000, guid: a984c89d260e4e34d8fea99df7db1291, type: 2}
+  healthBar: {fileID: 0}

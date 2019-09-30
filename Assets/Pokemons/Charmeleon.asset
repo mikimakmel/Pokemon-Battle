@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cb39bf595bb6e478c0b5a51d5f8407, type: 3}
+  m_Name: Charmeleon
+  m_EditorClassIdentifier: 
+  ID: 106
+  name: CHARMELEON
+  frontImage: {fileID: -5727179777859133220, guid: 87e767470f91ef44d8e12a6f1b9c4e75,
+    type: 3}
+  backImage: {fileID: -5727179777859133220, guid: f703a41028472484baffb059a24bfd5e,
+    type: 3}
+  cardImage: {fileID: 21300000, guid: 131ba51a15c6abb45a86d5dd4121af76, type: 3}
+  type: 1
+  rarity: 2
+  HpStats:
+    min: 0
+    curr: 73
+    max: 73
+  attack: 64
+  defense: 70
+  speed: 80
+  level: 35
+  canEvolve: 1
+  levelToEvolve: 36
+  evolveTo: {fileID: 0}
+  moves:
+  - {fileID: 11400000, guid: 32d1d126aff015740ae894374941dcec, type: 2}
+  - {fileID: 11400000, guid: 1988338712e211c408421869aeee5bb1, type: 2}
+  - {fileID: 11400000, guid: baec9bea8da4f334bae222c438171e7a, type: 2}
+  - {fileID: 11400000, guid: a984c89d260e4e34d8fea99df7db1291, type: 2}
+  healthBar: {fileID: 0}

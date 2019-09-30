@@ -17,12 +17,14 @@ public class SC_DeckMenuLogic : MonoBehaviour
     public Button Button_LeftArrow;
     public Button Button_RightArrow;
     public Slider Slider_Level;
+    public Image Image_SliderBackground;
     public Text Text_Level;
     public Text Text_LevelNumber; 
     public Text Text_PokemonName;
     public TextMeshProUGUI Text_PlayDeck;
     public SC_GameLogic SC_GameLogic;
     public SC_MenuLogic SC_MenuLogic;
+    public SC_LoadingMenuLogic SC_LoadingMenuLogic;
 
     public bool isDeckMenuEnabled;
     private int currentSelection;
@@ -40,13 +42,17 @@ public class SC_DeckMenuLogic : MonoBehaviour
         HandleDeckMenu();
     }
 
-    private void initDeckMenu()
+    public void initDeckMenu()
     {
         isDeckMenuEnabled = false;
         currentSelection = 1;
         currentCardIndex = -1;
         currentSliderValue = 40;
         pokemonListSize = SC_GameLogic.allPokemons.Count;
+        Button_PokemonCard.image.sprite = randomPokemonCard;
+        Text_PokemonName.text = "Random Pokemon";
+        Text_LevelNumber.text = currentSliderValue.ToString();
+        Slider_Level.value = currentSliderValue;
     }
 
     private void HandleDeckMenu()
@@ -58,14 +64,14 @@ public class SC_DeckMenuLogic : MonoBehaviour
                 if (currentSelection == 1)
                     currentSelection = 2;
                 else if (currentSelection == 3)
-                    handleLevelSlider("Right");
+                    handleLevelSlider(GlobalEnums.Directions.Right);
             }
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 if (currentSelection == 2)
                     currentSelection = 1;
                 else if (currentSelection == 3)
-                    handleLevelSlider("Left");
+                    handleLevelSlider(GlobalEnums.Directions.Left);
             }
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
@@ -89,26 +95,38 @@ public class SC_DeckMenuLogic : MonoBehaviour
                 switch (currentSelection)
                 {
                     case 1:
-                        handleCardsSwitch("Left");
+                        handleCardsSwitch(GlobalEnums.Directions.Left);
                         break;
 
                     case 2:
-                        handleCardsSwitch("Right");
+                        handleCardsSwitch(GlobalEnums.Directions.Right);
                         break;
 
                     case 4:
+                        SC_MenuLogic.menuMusic.Stop();
+                        SC_MenuLogic.deckMusic.Stop();
+                        SC_MenuLogic.buttonClick.Play();
+                        isDeckMenuEnabled = false;
+                        SC_LoadingMenuLogic.isLoadingMenuEnabled = true;
                         SC_MenuLogic.PlayMultiplayer(currentSliderValue);
                         break;
                 }
             }
 
             if (Input.GetKeyDown(KeyCode.X))
-            {
-                isDeckMenuEnabled = false;
-                SC_MenuLogic.isMenuEnabled = true;
-                SC_MenuLogic.handleBackPress();
-            }
+                handleDeckBackPress();
         }
+    }
+
+    private void handleDeckBackPress()
+    {
+        SC_MenuLogic.backClick.Play();
+        SC_MenuLogic.menuMusic.Play();
+        SC_MenuLogic.deckMusic.Stop();
+        isDeckMenuEnabled = false;
+        SC_MenuLogic.isMenuEnabled = true;
+        SC_MenuLogic.handleBackPress();
+        initDeckMenu();
     }
 
     private void UpdateDeckMenu()
@@ -117,41 +135,71 @@ public class SC_DeckMenuLogic : MonoBehaviour
         {
             case 1:
                 Button_LeftArrow.image.sprite = arrowSelected;
+                Button_LeftArrow.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
                 Button_RightArrow.image.sprite = arrow;
+                Button_RightArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Text_Level.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_Level.fontSize = 22;
+                Text_LevelNumber.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_LevelNumber.fontSize = 22;
+                Slider_Level.transform.localScale = new Vector3(1f, 1f, 1f);
+                Slider_Level.image.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
                 Text_PlayDeck.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
-                Text_PlayDeck.fontSize = 32;
+                Text_PlayDeck.fontSize = 40;
                 break;
 
             case 2:
                 Button_LeftArrow.image.sprite = arrow;
+                Button_LeftArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Button_RightArrow.image.sprite = arrowSelected;
+                Button_RightArrow.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
                 Text_Level.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_Level.fontSize = 22;
+                Text_LevelNumber.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_LevelNumber.fontSize = 22;
+                Slider_Level.transform.localScale = new Vector3(1f, 1f, 1f);
+                Slider_Level.image.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
                 Text_PlayDeck.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
-                Text_PlayDeck.fontSize = 32;
+                Text_PlayDeck.fontSize = 40;
                 break;
 
             case 3:
                 Button_LeftArrow.image.sprite = arrow;
+                Button_LeftArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Button_RightArrow.image.sprite = arrow;
+                Button_RightArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Text_Level.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_SELECTED_COLOR);
+                Text_Level.fontSize = 26;
+                Text_LevelNumber.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_SELECTED_COLOR);
+                Text_LevelNumber.fontSize = 26;
+                Slider_Level.transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
+                Slider_Level.image.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_SELECTED_COLOR);
                 Text_PlayDeck.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
-                Text_PlayDeck.fontSize = 32;
+                Text_PlayDeck.fontSize = 40;
                 break;
 
             case 4:
                 Button_LeftArrow.image.sprite = arrow;
+                Button_LeftArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Button_RightArrow.image.sprite = arrow;
+                Button_RightArrow.transform.localScale = new Vector3(1f, 1f, 1f);
                 Text_Level.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_Level.fontSize = 22;
+                Text_LevelNumber.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
+                Text_LevelNumber.fontSize = 22;
+                Slider_Level.transform.localScale = new Vector3(1f, 1f, 1f);
+                Slider_Level.image.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_REGULAR_COLOR);
                 Text_PlayDeck.color = Constants.GetColorFromHexString(Constants.MAIN_MENU_SELECTED_COLOR);
-                Text_PlayDeck.fontSize = 34;
+                Text_PlayDeck.fontSize = 42;
                 break;
         }
     }
 
-    private void handleCardsSwitch(string _direction)
+    private void handleCardsSwitch(GlobalEnums.Directions _direction)
     {
-        if (_direction == "Left")
+        SC_MenuLogic.buttonClick.Play();
+
+        if (_direction == GlobalEnums.Directions.Left)
         {
             if (currentCardIndex == -1)
             {
@@ -166,7 +214,7 @@ public class SC_DeckMenuLogic : MonoBehaviour
                 currentCardIndex--;
             }
         }
-        else if (_direction == "Right")
+        else if (_direction == GlobalEnums.Directions.Right)
         {
             if (currentCardIndex == -1)
             {
@@ -194,16 +242,18 @@ public class SC_DeckMenuLogic : MonoBehaviour
         }
     }
 
-    private void handleLevelSlider(string _direction)
+    private void handleLevelSlider(GlobalEnums.Directions _direction)
     {
-        if (_direction == "Left")
+        SC_MenuLogic.sliderClick.Play();
+
+        if (_direction == GlobalEnums.Directions.Left)
         {
             if (currentSliderValue > 5 && currentSliderValue <= 100)
             {
                 currentSliderValue--;
             }
         }
-        else if (_direction == "Right")
+        else if (_direction == GlobalEnums.Directions.Right)
         {
             if (currentSliderValue >= 5 && currentSliderValue < 100)
             {

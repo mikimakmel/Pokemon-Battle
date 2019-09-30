@@ -8,6 +8,8 @@ TagManager:
   - MovesSounds
   - MenuScreens
   - MenuObjects
+  - GameMusic
+  - GameSfx
   layers:
   - Default
   - TransparentFX

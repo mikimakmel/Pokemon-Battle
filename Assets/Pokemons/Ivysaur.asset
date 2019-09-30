@@ -23,14 +23,14 @@ MonoBehaviour:
   rarity: 2
   HpStats:
     min: 0
-    curr: 45
-    max: 45
-  attack: 40
-  defense: 50
-  speed: 24
-  level: 19
+    curr: 69
+    max: 69
+  attack: 62
+  defense: 75
+  speed: 60
+  level: 34
   canEvolve: 1
-  levelToEvolve: 33
+  levelToEvolve: 32
   evolveTo: {fileID: 11400000, guid: d5bb8cde5a9dcdc458d62ad514f04114, type: 2}
   moves:
   - {fileID: 11400000, guid: fc462dd3549aa234692b9cf8c8131bdc, type: 2}
