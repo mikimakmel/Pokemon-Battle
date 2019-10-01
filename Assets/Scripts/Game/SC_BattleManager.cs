@@ -22,6 +22,7 @@ public class SC_BattleManager : MonoBehaviour
     private GlobalEnums.MessageBoxState MessageState;
 
     // bools
+    public bool isAbleToPress;
     private bool isMultiplayer;
     private bool isInBattle;
     private bool isWaitingForRespond;
@@ -35,10 +36,16 @@ public class SC_BattleManager : MonoBehaviour
     public SC_MenuLogic SC_MenuLogic;
     public SC_DeckMenuLogic SC_DeckMenuLogic;
     public SC_LoadingMenuLogic SC_LoadingMenuLogic;
-    public SC_ShakeScreen SC_ShakeScreen;
     private SC_BasePokemon foePokemon;
     private SC_BasePokemon playerPokemon;
     private SC_PokemonMove attackMove;
+
+    [Header("Animations")]
+    public Animator backgroundAnimator;
+    public Animator playerAnimator;
+    public Animator playerBoxAnimator;
+    public Animator foeAnimator;
+    public Animator foeBoxAnimator;
 
     [Header("Cameras")]
     public GameObject menuCamera;
@@ -52,7 +59,6 @@ public class SC_BattleManager : MonoBehaviour
 
     [Header("Foe")]
     public Image Img_foePokemon;
-    private Animator foeAnimator;
     public Text Text_pokemonNameFoe;
     public Text Text_pokemonLvlFoe;
     public Text FoeTimeLeft;
@@ -60,7 +66,6 @@ public class SC_BattleManager : MonoBehaviour
 
     [Header("Player")]
     public Image Img_playerPokemon;
-    private Animator playerAnimator;
     public Text Text_pokemonNamePlayer;
     public Text Text_pokemonLvlPlayer;
     public Text Text_PlayerHP;
@@ -145,6 +150,7 @@ public class SC_BattleManager : MonoBehaviour
 
     private void RestartBattle()
     {
+        isAbleToPress = true;
         isInBattle = false;
         isMultiplayer = false;
         isWaitingForRespond = true;
@@ -178,19 +184,19 @@ public class SC_BattleManager : MonoBehaviour
         Img_battleBG.sprite = battleBackgrounds[_randomIndex];
         _toSend.Add("battleBackgroundIndex", _randomIndex);
         string _send = MiniJSON.Json.Serialize(_toSend);
-        Debug.Log("Sending: " + playerPokemon.name);
         WarpClient.GetInstance().sendMove(_send);
     }
 
     private void initFoe(int _pokemonID = 000, int _pokemonLvl = 000)
     {
+        foeAnimator.Rebind();
+
         if (_pokemonID == 000)
             foePokemon = SC_GameLogic.getRandomPokemonFromList(SC_GameLogic.allPokemons);
         else
             foePokemon = SC_GameLogic.getPokemonByID(_pokemonID);
 
         Img_foePokemon.sprite = foePokemon.frontImage;
-        foeAnimator = Img_foePokemon.GetComponent<Animator>();
         Text_pokemonNameFoe.text = foePokemon.name;
 
 
@@ -201,7 +207,8 @@ public class SC_BattleManager : MonoBehaviour
 
         foePokemon.HpStats.curr = foePokemon.HpStats.max;
         foePokemon.healthBar = foeHealthBar.GetComponent<SC_HealthBar>();
-        foePokemon.healthBar.SetHealthBarScale(1f);
+        StartCoroutine(foePokemon.healthBar.SetHealthBarScale(1f, 1f));
+
         for (int i = 0; i < foePokemon.moves.Count; i++)
         {
             foePokemon.moves[i] = Instantiate(foePokemon.moves[i]);
@@ -211,13 +218,14 @@ public class SC_BattleManager : MonoBehaviour
 
     private void initPlayer(int _pokemonID = 000, int _pokemonLvl = 000)
     {
+        playerAnimator.Rebind();
+
         if (_pokemonID == 000)
             playerPokemon = SC_GameLogic.getRandomPokemonFromList(SC_GameLogic.allPokemons);
         else
             playerPokemon = SC_GameLogic.getPokemonByID(_pokemonID);
 
         Img_playerPokemon.sprite = playerPokemon.backImage;
-        playerAnimator = Img_playerPokemon.GetComponent<Animator>();
         Text_pokemonNamePlayer.text = playerPokemon.name;
 
         if (_pokemonLvl == 000)
@@ -228,11 +236,12 @@ public class SC_BattleManager : MonoBehaviour
         playerPokemon.HpStats.curr = playerPokemon.HpStats.max;
         Text_PlayerHP.text = playerPokemon.HpStats.curr.ToString() + "/" + playerPokemon.HpStats.max.ToString();
         playerPokemon.healthBar = playerHealthBar.GetComponent<SC_HealthBar>();
-        playerPokemon.healthBar.SetHealthBarScale(1f);
+        StartCoroutine(playerPokemon.healthBar.SetHealthBarScale(1f, 1f));
         Move1Txt = playerPokemon.moves[0].name;
         Move2Txt = playerPokemon.moves[1].name;
         Move3Txt = playerPokemon.moves[2].name;
         Move4Txt = playerPokemon.moves[3].name;
+
         for (int i = 0; i < playerPokemon.moves.Count; i++)
         {
             playerPokemon.moves[i] = Instantiate(playerPokemon.moves[i]);
@@ -267,13 +276,13 @@ public class SC_BattleManager : MonoBehaviour
         switch (currentSelection)
         {
             case 1:
-                Fight.text = "> " + FightTxt;
+                Fight.text = "<b>> </b>" + FightTxt;
                 Run.text = RunTxt;
                 break;
 
             case 2:
                 Fight.text = FightTxt;
-                Run.text = "> " + RunTxt;
+                Run.text = "<b>> </b>" + RunTxt;
                 break;
         }
     }
@@ -292,7 +301,7 @@ public class SC_BattleManager : MonoBehaviour
             {
                 case 1:
                     UpdateMoveDetailBox(playerPokemon.moves[0]);
-                    Move1.text = "> " + Move1Txt;
+                    Move1.text = "<b>> </b>" + Move1Txt;
                     Move2.text = Move2Txt;
                     Move3.text = Move3Txt;
                     Move4.text = Move4Txt;
@@ -301,7 +310,7 @@ public class SC_BattleManager : MonoBehaviour
                 case 2:
                     UpdateMoveDetailBox(playerPokemon.moves[1]);
                     Move1.text = Move1Txt;
-                    Move2.text = "> " + Move2Txt;
+                    Move2.text = "<b>> </b>" + Move2Txt;
                     Move3.text = Move3Txt;
                     Move4.text = Move4Txt;
                     break;
@@ -310,7 +319,7 @@ public class SC_BattleManager : MonoBehaviour
                     UpdateMoveDetailBox(playerPokemon.moves[2]);
                     Move1.text = Move1Txt;
                     Move2.text = Move2Txt;
-                    Move3.text = "> " + Move3Txt;
+                    Move3.text = "<b>> </b>" + Move3Txt;
                     Move4.text = Move4Txt;
                     break;
 
@@ -319,7 +328,7 @@ public class SC_BattleManager : MonoBehaviour
                     Move1.text = Move1Txt;
                     Move2.text = Move2Txt;
                     Move3.text = Move3Txt;
-                    Move4.text = "> " + Move4Txt;
+                    Move4.text = "<b>> </b>" + Move4Txt;
                     break;
             }
         }
@@ -412,6 +421,14 @@ public class SC_BattleManager : MonoBehaviour
                 }
 
                 isSelectionMenuEnabled = false;
+                isMovesMenuEnabled = false;
+            }
+
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                SC_MenuLogic.backClick.Play();
+                ChangeMenu(GlobalEnums.BattleMenus.Selection);
+                isSelectionMenuEnabled = true;
                 isMovesMenuEnabled = false;
             }
 
@@ -550,6 +567,7 @@ public class SC_BattleManager : MonoBehaviour
         battleCamera.SetActive(false);
         SC_MenuLogic.ChangeScreen(GlobalEnums.MenuScreens.MainMenu);
         SC_MenuLogic.menuMusic.Play();
+        StartCoroutine(SC_MenuLogic.fadeIn(0.8f));
         yield return new WaitForSeconds(0.5f);
         SC_MenuLogic.isMenuEnabled = true;
         SC_MenuLogic.enabled = true;
@@ -571,7 +589,7 @@ public class SC_BattleManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && isAbleToPress == true)
         {
             clickSound.Play();
 
@@ -581,7 +599,6 @@ public class SC_BattleManager : MonoBehaviour
             if ((battleState == GlobalEnums.BattleStates.GameOver && battleCamera.activeInHierarchy == true) || (MessageState == GlobalEnums.MessageBoxState.EnemyRanAway))
             {
                 FinishBattle();
-                canExit = true;
                 return;
             }
             else isWaitingForRespond = false;
@@ -697,16 +714,6 @@ public class SC_BattleManager : MonoBehaviour
             else
             {
                 currentTurn = GetRandomTurn();
-
-                if (currentTurn == GlobalEnums.Turns.FoesTurn)
-                {
-                    AttackRandomly();
-                }
-                else
-                {
-                    MessageState = GlobalEnums.MessageBoxState.Selection;
-                    ManageMessageBox();
-                }
             }
         }
     }
@@ -726,9 +733,15 @@ public class SC_BattleManager : MonoBehaviour
             attackMove.moveSound.Stop();
 
         if (currentTurn == GlobalEnums.Turns.PlayersTurn)
+        {
+            foeAnimator.SetTrigger("DieFoe");
             victoryMusic.Play();
+        }
         else if (currentTurn == GlobalEnums.Turns.FoesTurn)
+        {
+            playerAnimator.SetTrigger("DiePlayer");
             losingMusic.Play();
+        }
 
         FoeTimeLeft.enabled = false;
         PlayerTimeLeft.enabled = false;
@@ -737,6 +750,7 @@ public class SC_BattleManager : MonoBehaviour
         MessageState = GlobalEnums.MessageBoxState.GameOver;
         battleState = GlobalEnums.BattleStates.GameOver;
         ManageMessageBox();
+        canExit = true;
     }
 
     private void AttackRandomly()
@@ -748,6 +762,7 @@ public class SC_BattleManager : MonoBehaviour
 
     private void AttackOpponent(SC_BasePokemon _attackPokemon, SC_PokemonMove _attackMove, SC_BasePokemon _defensePokemon)
     {
+        isAbleToPress = false;
         if (canExit != true)
             _attackMove.moveSound.Play();
         currentMenu = GlobalEnums.BattleMenus.Message;
@@ -767,31 +782,49 @@ public class SC_BattleManager : MonoBehaviour
         if (currentTurn == GlobalEnums.Turns.PlayersTurn)
         {
             playerAnimator.SetTrigger("Attack");
+            backgroundAnimator.SetTrigger("Attack");
             StartCoroutine(FlashAfterAttack(Img_foePokemon, 4, 0.1f));
         }
         else if (currentTurn == GlobalEnums.Turns.FoesTurn)
         {
+            playerBoxAnimator.SetTrigger("Attack");
             foeAnimator.SetTrigger("Attack");
+            foeBoxAnimator.SetTrigger("Attack");
+            backgroundAnimator.SetTrigger("Attack");
             StartCoroutine(FlashAfterAttack(Img_playerPokemon, 4, 0.1f));
-            StartCoroutine(SC_ShakeScreen.ShakeIt());
         }
 
         if (_defensePokemon.HpStats.curr - _damage < 1)
         {
             PlayerTimeLeft.enabled = false;
             FoeTimeLeft.enabled = false;
+            float _oldHP = (_defensePokemon.HpStats.curr) / _defensePokemon.HpStats.max;
+            StartCoroutine(handlePlayerHpDecrease(_defensePokemon, Text_PlayerHP, _defensePokemon.HpStats.curr, 0, 0.06f));
+            StartCoroutine(_defensePokemon.healthBar.SetHealthBarScale(_oldHP, 0));
             _defensePokemon.HpStats.curr = 0;
-            _defensePokemon.healthBar.SetHealthBarScale(0);
-            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
             battleState = GlobalEnums.BattleStates.GameOver;
         }
         else
         {
-            float newHP = (_defensePokemon.HpStats.curr - _damage) / _defensePokemon.HpStats.max;
+            float _newHP = (_defensePokemon.HpStats.curr - _damage) / _defensePokemon.HpStats.max;
+            float _oldHP = (_defensePokemon.HpStats.curr) / _defensePokemon.HpStats.max;
+            StartCoroutine(handlePlayerHpDecrease(_defensePokemon, Text_PlayerHP, _defensePokemon.HpStats.curr, _defensePokemon.HpStats.curr - _damage, 0.06f));
+            StartCoroutine(_defensePokemon.healthBar.SetHealthBarScale(_oldHP, _newHP));
             _defensePokemon.HpStats.curr -= _damage;
-            _defensePokemon.healthBar.SetHealthBarScale(newHP);
-            Text_PlayerHP.text = ((int)playerPokemon.HpStats.curr).ToString() + "/" + playerPokemon.HpStats.max.ToString();
         }
+    }
+
+    private IEnumerator handlePlayerHpDecrease(SC_BasePokemon _pokemon, Text _pokemonHP, float _oldHP, float _newHP, float _delay)
+    {
+        yield return new WaitForSeconds(_delay);
+        while (_oldHP >= _newHP)
+        {
+            _oldHP--;
+            if (currentTurn == GlobalEnums.Turns.FoesTurn)
+                _pokemonHP.text = ((int)_oldHP).ToString() + "/" + _pokemon.HpStats.max.ToString();
+            yield return new WaitForSeconds(_delay);
+        }
+        isAbleToPress = true;
     }
 
     private IEnumerator FlashAfterAttack(Image pokemon, int numOfTimes, float delay)

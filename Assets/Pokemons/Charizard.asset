@@ -29,12 +29,9 @@ MonoBehaviour:
   defense: 78
   speed: 100
   level: 36
-  canEvolve: 0
-  levelToEvolve: 0
-  evolveTo: {fileID: 0}
   moves:
   - {fileID: 11400000, guid: a984c89d260e4e34d8fea99df7db1291, type: 2}
   - {fileID: 11400000, guid: 1988338712e211c408421869aeee5bb1, type: 2}
   - {fileID: 11400000, guid: 32d1d126aff015740ae894374941dcec, type: 2}
-  - {fileID: 11400000, guid: a984c89d260e4e34d8fea99df7db1291, type: 2}
+  - {fileID: 11400000, guid: baec9bea8da4f334bae222c438171e7a, type: 2}
   healthBar: {fileID: 0}

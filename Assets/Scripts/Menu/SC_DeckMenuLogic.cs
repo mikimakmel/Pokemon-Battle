@@ -1,12 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using MiniJSON;
-using AssemblyCSharp;
-using com.shephertz.app42.gaming.multiplayer.client;
-using com.shephertz.app42.gaming.multiplayer.client.events;
+using TMPro;
 
 public class SC_DeckMenuLogic : MonoBehaviour
 {
@@ -25,12 +19,11 @@ public class SC_DeckMenuLogic : MonoBehaviour
     public SC_GameLogic SC_GameLogic;
     public SC_MenuLogic SC_MenuLogic;
     public SC_LoadingMenuLogic SC_LoadingMenuLogic;
-
     public bool isDeckMenuEnabled;
-    private int currentSelection;
     public int currentCardIndex;
-    private int pokemonListSize;
     public int currentSliderValue;
+    private int currentSelection;
+    private int pokemonListSize;
 
     private void Awake()
     {
@@ -120,6 +113,7 @@ public class SC_DeckMenuLogic : MonoBehaviour
 
     private void handleDeckBackPress()
     {
+        StartCoroutine(SC_MenuLogic.fadeIn(0.1f));
         SC_MenuLogic.backClick.Play();
         SC_MenuLogic.menuMusic.Play();
         SC_MenuLogic.deckMusic.Stop();
@@ -202,32 +196,20 @@ public class SC_DeckMenuLogic : MonoBehaviour
         if (_direction == GlobalEnums.Directions.Left)
         {
             if (currentCardIndex == -1)
-            {
                 currentCardIndex = pokemonListSize - 1;
-            }
             else if (currentCardIndex == 0)
-            {
                 currentCardIndex = - 1;
-            }
             else
-            {
                 currentCardIndex--;
-            }
         }
         else if (_direction == GlobalEnums.Directions.Right)
         {
             if (currentCardIndex == -1)
-            {
                 currentCardIndex = 0;
-            }
             else if (currentCardIndex == pokemonListSize - 1)
-            {
                 currentCardIndex = -1;
-            }
             else
-            {
                 currentCardIndex++;
-            }
         }
 
         if (currentCardIndex == -1)
@@ -249,16 +231,12 @@ public class SC_DeckMenuLogic : MonoBehaviour
         if (_direction == GlobalEnums.Directions.Left)
         {
             if (currentSliderValue > 5 && currentSliderValue <= 100)
-            {
                 currentSliderValue--;
-            }
         }
         else if (_direction == GlobalEnums.Directions.Right)
         {
             if (currentSliderValue >= 5 && currentSliderValue < 100)
-            {
                 currentSliderValue++;
-            }
         }
 
         Text_LevelNumber.text = currentSliderValue.ToString();

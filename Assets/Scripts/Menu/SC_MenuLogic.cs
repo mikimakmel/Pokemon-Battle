@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using AssemblyCSharp;
 using com.shephertz.app42.gaming.multiplayer.client;
 using com.shephertz.app42.gaming.multiplayer.client.events;
@@ -23,14 +24,15 @@ public class SC_MenuLogic : MonoBehaviour
     public AudioSource buttonClick;
     public AudioSource backClick;
     public AudioSource sliderClick;
+    public Image Img_Fade;
 
     // Multiplayer
     public Listener listener;
-    public string userId = "";
     private Dictionary<string, object> matchRoomData;
     private List<string> roomIds;
-    private int roomIdx = 0;
+    public string userId = "";
     private string currRoomId;
+    private int roomIdx = 0;
     private bool isConnected = false;
 
     static SC_MenuLogic instance;
@@ -67,6 +69,15 @@ public class SC_MenuLogic : MonoBehaviour
         Listener.OnUserJoinRoom -= OnUserJoinRoom;
         Listener.OnGameStarted -= OnGameStarted;
         Listener.OnDisconnect -= OnDisconnect;
+    }
+
+    public IEnumerator fadeIn(float _duration)
+    {
+        Img_Fade.canvasRenderer.SetAlpha(1f);
+        MenuScreens["Screen_FadeIn"].SetActive(true);
+        Img_Fade.CrossFadeAlpha(0f, _duration, false);
+        yield return new WaitForSeconds(_duration);
+        MenuScreens["Screen_FadeIn"].SetActive(false);
     }
 
     private void initMultiplayer()

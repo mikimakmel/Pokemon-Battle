@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-using MiniJSON;
+﻿using UnityEngine;
 using AssemblyCSharp;
 using com.shephertz.app42.gaming.multiplayer.client;
-using com.shephertz.app42.gaming.multiplayer.client.events;
 
 public class SC_LoadingMenuLogic : MonoBehaviour
 {
@@ -57,6 +50,7 @@ public class SC_LoadingMenuLogic : MonoBehaviour
 
     private void handleLoadingBackPress()
     {
+        StartCoroutine(SC_MenuLogic.fadeIn(0.1f));
         SC_MenuLogic.deckMusic.Play();
         WarpClient.GetInstance().LeaveRoom(RoomId);
         WarpClient.GetInstance().stopGame();

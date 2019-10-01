@@ -1,19 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
 
 public class SC_GameLogic : MonoBehaviour
 {
     public List<SC_BasePokemon> allPokemons = new List<SC_BasePokemon>();
     public List<SC_PokemonMove> allMoves = new List<SC_PokemonMove>();
-    public GameObject menuCamera;
-    public GameObject battleCamera;
-    public SC_BattleManager SC_BattleManager;
-    public SC_MenuLogic SC_MenuLogic;
-    public AudioSource battleMusic;
     private Dictionary<string, GameObject> rectangles;
     private Dictionary<string, GameObject> movesSounds;
+    public SC_BattleManager SC_BattleManager;
+    public SC_MenuLogic SC_MenuLogic;
+    public GameObject menuCamera;
+    public GameObject battleCamera;
+    public AudioSource battleMusic;
 
     private void Awake()
     {
@@ -78,6 +77,9 @@ public class SC_GameLogic : MonoBehaviour
         menuCamera.SetActive(false);
         battleCamera.SetActive(true);
 
+        SC_BattleManager.playerAnimator.SetTrigger("PlayerEnters");
+        SC_BattleManager.foeAnimator.SetTrigger("FoeEnters");
+
         for (int i = 1; i <= rectangles.Count; i++)
         {
             if (rectangles.ContainsKey("Rec_" + i))
@@ -89,7 +91,6 @@ public class SC_GameLogic : MonoBehaviour
     {
         int _randomIndex = Random.Range(0, _pokemonsList.Count);
         SC_BasePokemon _randomPokemon = Instantiate(_pokemonsList[_randomIndex]);
-        //allPokemons.Remove(_pokemonsList[_randomIndex]);
         return _randomPokemon;
     }
 

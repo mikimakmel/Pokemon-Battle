@@ -71,6 +71,8 @@ public class SC_OptionsMenuLogic : MonoBehaviour
         musicSliderValue = (int)Slider_Music.value;
         sfxSliderValue = (int)Slider_Sfx.value;
         UpdateOptionsMenu();
+        updateAllMusic();
+        updateAllSfx();
     }
 
     public void handleMusicSlider(GlobalEnums.Directions _direction)
@@ -88,6 +90,11 @@ public class SC_OptionsMenuLogic : MonoBehaviour
 
         Slider_Music.value = musicSliderValue;
 
+        updateAllMusic();
+    }
+
+    public void updateAllMusic()
+    {
         foreach (GameObject music in GameMusic.Values)
         {
             if (music != null)
@@ -108,8 +115,13 @@ public class SC_OptionsMenuLogic : MonoBehaviour
                 sfxSliderValue++;
         }
 
-        Slider_Sfx.value = sfxSliderValue; 
+        Slider_Sfx.value = sfxSliderValue;
 
+        updateAllSfx();
+    }
+
+    public void updateAllSfx()
+    {
         foreach (GameObject sfx in GameSfx.Values)
         {
             if (sfx != null)
@@ -168,6 +180,7 @@ public class SC_OptionsMenuLogic : MonoBehaviour
 
     private void handleOptionsBackPress()
     {
+        StartCoroutine(SC_MenuLogic.fadeIn(0.1f));
         isOptionsMenuEnabled = false;
         SC_MenuLogic.isMenuEnabled = true;
         SC_MenuLogic.handleBackPress();

@@ -16,9 +16,6 @@ public class SC_BasePokemon : ScriptableObject
     public int defense;
     public int speed;
     public int level;
-    public bool canEvolve;
-    public int levelToEvolve;
-    public SC_BasePokemon evolveTo;
     public List<SC_PokemonMove> moves;
     public SC_HealthBar healthBar;
 }

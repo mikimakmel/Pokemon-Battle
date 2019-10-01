@@ -11,6 +11,6 @@ public class SC_PokemonMove : ScriptableObject
     public int currPP;
     public int power;
     public int accuracy;
-    public GlobalEnums.PokemonType type;
     public AudioSource moveSound;
+    public GlobalEnums.PokemonType type;
 }
